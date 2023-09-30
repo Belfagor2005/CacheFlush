@@ -1,0 +1,176 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ims\n"
+"POT-Creation-Date: 2018-02-02 18:01+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: vovan43 <vovan43@ex.ua>\n"
+"Language-Team: Dima-73@inbox.lv\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: plugin.py:30
+msgid "plugins"
+msgstr "plugins"
+
+#: plugin.py:30
+msgid "menu-system"
+msgstr "menu-sistema"
+
+#: plugin.py:30
+msgid "extensions"
+msgstr "Estensioni"
+
+#: plugin.py:30
+msgid "event info"
+msgstr "Info eventi"
+
+#: plugin.py:35 ui.py:100 ui.py:126
+msgid "Setup CacheFlush"
+msgstr "Configura CacheFlush"
+
+#: plugin.py:48
+msgid "Automatic cache flushing"
+msgstr "Svuotamento automatico della cache"
+
+#: ui.py:20
+msgid "pagecache"
+msgstr "pagecache"
+
+#: ui.py:20
+msgid "dentries and inodes"
+msgstr "dentries and inodes"
+
+#: ui.py:20
+msgid "pagecache, dentries and inodes"
+msgstr "pagecache, dentries and inodes"
+
+#: ui.py:25 ui.py:32
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minuti"
+msgstr[2] "%d minuti"
+
+#: ui.py:40
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d secondo"
+msgstr[1] "%d secondi"
+msgstr[2] "%d secondi"
+
+#: ui.py:44
+msgid "Default"
+msgstr "Default"
+
+#: ui.py:111
+msgid "Save"
+msgstr "Salva"
+
+#: ui.py:112 ui.py:335
+msgid "Cancel"
+msgstr "Cancella"
+
+#: ui.py:113 ui.py:337
+msgid "Clear Now"
+msgstr "Pulisci ora"
+
+#: ui.py:114
+msgid "Info"
+msgstr "Info"
+
+#: ui.py:120
+#, python-format
+msgid "Uncached memory: %s kB,   ( default: %s kB )"
+msgstr "Memoria non collegata: %s kB,   ( default: %s kB )"
+
+#: ui.py:130
+msgid "Enable CacheFlush"
+msgstr "Abilita CacheFlush"
+
+#: ui.py:132
+msgid "Auto timeout"
+msgstr "Auto timeout"
+
+#: ui.py:133
+msgid "Time of info message"
+msgstr "Tempo messaggio informativo"
+
+#: ui.py:135
+msgid "Auto timeout (5-150min)"
+msgstr "Timeout automatico (5-150 minuti)"
+
+#: ui.py:136
+msgid "Time of info message (1-10sec)"
+msgstr "Tempo messaggio informativo (1-10 sec)"
+
+#: ui.py:138
+msgid "Cache drop type"
+msgstr "Cache drop type"
+
+#: ui.py:139
+msgid "Clean \"dirty\" cache too"
+msgstr "Pulisci anche la cache \"sporca\""
+
+#: ui.py:141
+msgid "Show info on screen"
+msgstr "Mostra informazioni sullo schermo"
+
+#: ui.py:143
+msgid "Display plugin in"
+msgstr "Mostra plugin in"
+
+#: ui.py:145
+msgid "Uncached memory size"
+msgstr "Dimensione memoria non collegata"
+
+#: ui.py:197
+msgid "Memory:"
+msgstr "Memoria:"
+
+#: ui.py:197
+msgid "MB"
+msgstr "MB"
+
+#: ui.py:199
+msgid "Used:"
+msgstr "Usata:"
+
+#: ui.py:201
+msgid "Free:"
+msgstr "Libera:"
+
+#: ui.py:254
+msgid "Starting"
+msgstr "Avvio"
+
+#: ui.py:265
+msgid "CacheFlush Status"
+msgstr "CacheFlush Status"
+
+#: ui.py:271
+msgid "Started"
+msgstr "Avviato"
+
+#: ui.py:273
+msgid "Stopped"
+msgstr "Fermato"
+
+#: ui.py:284
+msgid "Mem cleared"
+msgstr "Memoria pulita"
+
+#: ui.py:327 ui.py:349
+msgid "CacheFlush Info"
+msgstr "CacheFlush Info"
+
+#: ui.py:336
+msgid "Refresh"
+msgstr "Ricarica"
