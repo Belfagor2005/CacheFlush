@@ -6,16 +6,18 @@ msgstr ""
 "POT-Creation-Date: 2012-10-25 19:57+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
-"Language-Team:  <ims21@users.sourceforge.net>\n"
-"Language: \n"
+"Language-Team: ims21@users.sourceforge.net\n"
+"Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Czech\n"
-"X-Poedit-Country: CZECH REPUBLIC\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: ui.py\n"
 
 #: plugin.py:38
+#, fuzzy
 msgid "pagecache"
 msgstr "pagecache"
 
@@ -27,8 +29,7 @@ msgstr "dentries a inodes"
 msgid "pagecache, dentries and inodes"
 msgstr "pagecache, dentries a inodes"
 
-#: plugin.py:43
-#: plugin.py:51
+#: plugin.py:43 plugin.py:51
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -64,9 +65,7 @@ msgstr "event info"
 msgid "Default"
 msgstr "výchozí"
 
-#: plugin.py:101
-#: plugin.py:146
-#: plugin.py:172
+#: plugin.py:101 plugin.py:146 plugin.py:172
 msgid "Setup CacheFlush"
 msgstr "Nastavení CacheFlush"
 
@@ -78,13 +77,11 @@ msgstr "Automatické uvolňování mezipaměti"
 msgid "Save"
 msgstr "Uložit"
 
-#: plugin.py:158
-#: plugin.py:364
+#: plugin.py:158 plugin.py:364
 msgid "Cancel"
 msgstr "Zavřít"
 
-#: plugin.py:159
-#: plugin.py:366
+#: plugin.py:159 plugin.py:366
 msgid "Clear Now"
 msgstr "Uvolnit"
 
@@ -173,8 +170,7 @@ msgstr "Zastaveno"
 msgid "Mem cleared"
 msgstr "Paměť uvolněna"
 
-#: plugin.py:356
-#: plugin.py:376
+#: plugin.py:356 plugin.py:376
 msgid "CacheFlush Info"
 msgstr "CacheFlush Info"
 
@@ -186,7 +182,6 @@ msgstr "Obnovit"
 #~ msgstr "Používat příkaz \"sync\""
 
 #~ msgid "%d hour"
-
 #~ msgid_plural "%d hours"
 #~ msgstr[0] "%d hodina"
 #~ msgstr[1] "%d hodiny"
