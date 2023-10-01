@@ -1,23 +1,22 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# for localized messages
 from . import _
-from Screens.Screen import Screen
-from Components.ConfigList import ConfigListScreen
-from Components.config import ConfigYesNo, ConfigSelection
-from Components.config import ConfigInteger, config, getConfigListEntry
 from Components.ActionMap import ActionMap
+from Components.ConfigList import ConfigListScreen
 from Components.Label import Label
-from os import system
-from enigma import eTimer, getDesktop
 from Components.ProgressBar import ProgressBar
-import os
+from Components.config import ConfigInteger, config, getConfigListEntry
+from Components.config import ConfigYesNo, ConfigSelection
+from Screens.Screen import Screen
+from enigma import eTimer, getDesktop
+from os import system
 from plugin import VERSION
+import os
 
 HD = False
 screenwidth = getDesktop(0).size()
 if screenwidth.width() >= 1280:
-# if getDesktop(0).size().width() >= 1280:
     HD = True
 
 config.plugins.CacheFlush.enable = ConfigYesNo(default=False)
@@ -31,7 +30,7 @@ try:   # can be used ngettext ?
     ngettext("%d minute", "%d minutes", 5)
     NGETTEXT = True
 except Exception as e:
-    print "[CacheFlush] ngettext is not supported:", e
+    print("[CacheFlush] ngettext is not supported:", e)
 
 choicelist = []
 for i in range(5, 151, 5):
@@ -62,28 +61,28 @@ ALL = 0x17
 def dropCache():
     if cfg.sync.value:
         system("sync")
-        print "[CacheFlush] sync"
+        print("[CacheFlush] sync")
     if cfg.type.value == "1":    # free pagecache
         system("echo 1 > /proc/sys/vm/drop_caches")
-        print "[CacheFlush] free pagecache"
+        print("[CacheFlush] free pagecache")
     elif cfg.type.value == "2":  # free dentries and inodes
         system("echo 2 > /proc/sys/vm/drop_caches")
-        print "[CacheFlush] free dentries and inodes"
+        print("[CacheFlush] free dentries and inodes")
     elif cfg.type.value == "3":  # free pagecache, dentries and inodes
         system("echo 3 > /proc/sys/vm/drop_caches")
-        print "[CacheFlush] free pagecache, dentries and inodes"
+        print("[CacheFlush] free pagecache, dentries and inodes")
 
 
 def getMinFreeKbytes():
     for line in open('/proc/sys/vm/min_free_kbytes', 'r'):
         line = line.strip()
-    print "[CacheFlush] min_free_kbytes is %s kB" % line
+    print("[CacheFlush] min_free_kbytes is %s kB" % line)
     return line
 
 
 def setMinFreeKbytes(size):
     system("echo %d > /proc/sys/vm/min_free_kbytes" % (size))
-    print "[CacheFlush] set min_free_kbytes to %d kB" % size
+    print("[CacheFlush] set min_free_kbytes to %d kB" % size)
 
 
 class CacheFlushSetupMenu(Screen, ConfigListScreen):
@@ -104,7 +103,6 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
 
     def __init__(self, session):
         Screen.__init__(self, session)
-
         self.onChangedEntry = []
         self.list = []
         ConfigListScreen.__init__(self, self.list, session=session, on_change=self.changedEntry)
@@ -154,16 +152,13 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
                 getConfigListEntry(_("Display plugin in"), cfg.where),
             ))
         self.list.extend((getConfigListEntry(_("Uncached memory size"), cfg.uncached),))
-
-        # self["config"].list = self.list
-        # self["config"].setList(self.list)
         self["config"].list = self.list
         self["config"].setList(self.list)
 
     def keySave(self):
         for x in self["config"].list:
             x[1].save()
-#       configfile.save()
+        # configfile.save()
         self.setUncachedMemory()
         self.close()
 
@@ -217,7 +212,7 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
                 self["slide"].show()
             return memory
         except Exception as e:
-            print "[CacheFlush] getMemory FAIL:", e
+            print("[CacheFlush] getMemory FAIL:", e)
             return ""
 
     def memoryInfo(self):
@@ -379,7 +374,7 @@ class CacheFlushInfoScreen(Screen):
         self["slide"] = ProgressBar()
         self["slide"].setValue(100)
 
-        self.setTitle(_("CacheFlush Info") + "  " + VERSION)
+        self.setTitle(_("CacheFlush Info v.%s") % VERSION)
         self.onLayoutFinish.append(self.getMemInfo)
 
     def getMemInfo(self):
@@ -412,7 +407,7 @@ class CacheFlushInfoScreen(Screen):
             self['pused'].setText("%.1f %s" % (100.*(mem-free)/mem, '%'))
 
         except Exception as e:
-            print "[CacheFlush] getMemory FAIL:", e
+            print("[CacheFlush] getMemory FAIL:", e)
 
     def freeMemory(self):
         dropCache()

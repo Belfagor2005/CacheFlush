@@ -8,7 +8,7 @@ from Components.config import ConfigSubsection, config, ConfigSelection
 #
 #    Plugin for Dreambox-Enigma2
 #    version:
-VERSION = "2.0_r1"
+VERSION = "2.0_r4"
 #    Coded by shamann & ims (c)2012 as ClearMem on basic idea by moulikpeta
 #   latest modyfication by ims:
 #   - ngettext, getMemory, freeMemory, WHERE_PLUGINMENU, Info, translate
@@ -39,12 +39,12 @@ def startSetup(menuid, **kwargs):
 
 def sessionAutostart(reason, **kwargs):
     if reason == 0:
-        import ui
+        from . import ui
         ui.CacheFlushAuto.startCacheFlush(kwargs["session"])
 
 
 def main(session, **kwargs):
-    import ui
+    from . import ui
     session.open(ui.CacheFlushSetupMenu)
 
 
