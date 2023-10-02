@@ -86,20 +86,34 @@ def setMinFreeKbytes(size):
 
 
 class CacheFlushSetupMenu(Screen, ConfigListScreen):
-
-    skin = """
-    <screen name="CacheFlush" position="center,center" size="1000,715" title="" backgroundColor="#31000000">
-        <widget name="config" position="13,15" size="980,442" zPosition="1" transparent="0" backgroundColor="#31000000" scrollbarMode="showOnDemand" />
-        <ePixmap pixmap="skin_default/div-h.png" position="1,473" zPosition="2" size="1000,4" />
-        <widget name="min_free_kb" font="Regular; 28" position="10,485" size="980,45" zPosition="2" valign="center" backgroundColor="#31000000" transparent="1" />
-        <widget name="memory" position="10,535" zPosition="2" size="980,44" valign="center" halign="left" font="Regular; 28" transparent="1" foregroundColor="white" />
-        <widget name="slide" position="10,585" zPosition="2" borderWidth="1" size="980,30" backgroundColor="dark" />
-        <ePixmap pixmap="skin_default/div-h.png" position="0,619" zPosition="2" size="1000,4" />
-        <widget name="key_red" position="25,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="red" />
-        <widget name="key_green" position="268,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="green" />
-        <widget name="key_yellow" position="510,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="yellow" />
-        <widget name="key_blue" position="743,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="blue" />
-    </screen>"""
+    if HD:
+        skin = """
+            <screen name="CacheFlush" position="center,center" size="1200,900" title="" backgroundColor="#31000000">
+                <widget name="config" position="13,15" size="1170,542" zPosition="1" transparent="0" backgroundColor="#31000000" scrollbarMode="showOnDemand" />
+                <ePixmap pixmap="skin_default/div-h.png" position="1,578" zPosition="2" size="1200,6" />
+                <widget name="min_free_kb" font="Regular; 30" position="15,600" size="1160,60" zPosition="2" valign="center" backgroundColor="#31000000" transparent="1" />
+                <widget name="memory" position="15,670" zPosition="2" size="1160,60" valign="center" halign="left" font="Regular; 28" transparent="1" foregroundColor="white" />
+                <widget name="slide" position="15,740" zPosition="2" borderWidth="1" size="1160,50" backgroundColor="dark" />
+                <ePixmap pixmap="skin_default/div-h.png" position="0,799" zPosition="2" size="1200,6" />
+                <widget name="key_red" position="73,820" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="red" />
+                <widget name="key_green" position="317,820" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="green" />
+                <widget name="key_yellow" position="563,820" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="yellow" />
+                <widget name="key_blue" position="807,820" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="blue" />
+            </screen>"""    
+    else:
+        skin = """
+            <screen name="CacheFlush" position="center,center" size="1000,715" title="" backgroundColor="#31000000">
+                <widget name="config" position="13,15" size="980,442" zPosition="1" transparent="0" backgroundColor="#31000000" scrollbarMode="showOnDemand" />
+                <ePixmap pixmap="skin_default/div-h.png" position="1,473" zPosition="2" size="1000,4" />
+                <widget name="min_free_kb" font="Regular; 28" position="10,485" size="980,45" zPosition="2" valign="center" backgroundColor="#31000000" transparent="1" />
+                <widget name="memory" position="10,535" zPosition="2" size="980,44" valign="center" halign="left" font="Regular; 28" transparent="1" foregroundColor="white" />
+                <widget name="slide" position="10,585" zPosition="2" borderWidth="1" size="980,30" backgroundColor="dark" />
+                <ePixmap pixmap="skin_default/div-h.png" position="0,619" zPosition="2" size="1000,4" />
+                <widget name="key_red" position="25,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="red" />
+                <widget name="key_green" position="268,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="green" />
+                <widget name="key_yellow" position="510,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="yellow" />
+                <widget name="key_blue" position="743,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 28" transparent="1" foregroundColor="blue" />
+            </screen>"""
 
     def __init__(self, session):
         Screen.__init__(self, session)
@@ -254,12 +268,12 @@ CacheFlushAuto = CacheFlushAutoMain()
 
 class CacheFlushAutoScreen(Screen):
     if HD:
-        skin = """<screen name="CacheFlushAutoScreen" position="0,0" zPosition="10" size="450,50" title="CacheFlush Status" backgroundColor="#31000000">
-                <widget name="message_label" font="Regular; 26" position="25,0" zPosition="2" valign="center" halign="center" size="400,50" backgroundColor="#31000000" transparent="1" />
+        skin = """<screen name="CacheFlushAutoScreen" position="0,0" zPosition="10" size="650,60" title="CacheFlush Status" backgroundColor="#31000000">
+                <widget name="message_label" font="Regular; 26" position="25,5" zPosition="2" valign="center" halign="center" size="600,50" backgroundColor="#31000000" transparent="1" />
             </screen>"""
     else:
-        skin = """<screen name="CacheFlushAutoScreen" position="550,50" zPosition="10" size="150,20" title="CacheFlush Status" backgroundColor="#31000000" >
-                <widget name="message_label" font="Regular;16" position="0,0" zPosition="2" valign="center" halign="center" size="150,20" backgroundColor="#31000000" transparent="1" />
+        skin = """<screen name="CacheFlushAutoScreen" position="0,10" zPosition="10" size="400,20" title="CacheFlush Status" backgroundColor="#31000000">
+                <widget name="message_label" font="Regular;16" position="10,0" zPosition="2" valign="center" halign="center" size="380,20" backgroundColor="#31000000" transparent="1" />
             </screen>"""
 
     def __init__(self, session):
@@ -322,18 +336,18 @@ class CacheFlushAutoScreen(Screen):
 
 class CacheFlushInfoScreen(Screen):
     if HD:
-        skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="1000,750" title="CacheFlush Info" backgroundColor="#31000000">
-                <widget name="lmemtext" font="Regular; 20" position="10,10" size="200,595" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
-                <widget name="lmemvalue" font="Regular; 20" position="210,10" size="200,595" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
-                <widget name="rmemtext" font="Regular; 20" position="583,10" size="200,595" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
-                <widget name="rmemvalue" font="Regular; 20" position="785,10" size="200,595" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
-                <widget name="pfree" position="400,115" size="100,50" font="Regular; 20" zPosition="3" halign="right" backgroundColor="#31000000" transparent="1" />
-                <widget name="pused" position="405,388" size="100,50" font="Regular; 22" zPosition="3" halign="right" backgroundColor="#31000000" transparent="1" />
-                <widget name="slide" position="510,10" size="50,595" render="Progress" zPosition="3" borderWidth="1" orientation="orBottomToTop" />
-                <ePixmap pixmap="skin_default/div-h.png" position="0,619" zPosition="2" size="1000,4" />
-                <widget name="key_red" position="25,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 30" transparent="1" foregroundColor="red" />
-                <widget name="key_green" position="268,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 30" transparent="1" foregroundColor="green" />
-                <widget name="key_blue" position="743,632" zPosition="2" size="220,50" valign="center" halign="center" font="Regular; 30" transparent="1" foregroundColor="blue" />
+        skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="1500,950" title="CacheFlush Info" backgroundColor="#31000000">
+                <widget name="lmemtext" font="Regular; 24" position="10,10" size="320,820" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
+                <widget name="lmemvalue" font="Regular; 24" position="335,10" size="320,820" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="rmemtext" font="Regular; 24" position="839,10" size="320,820" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
+                <widget name="rmemvalue" font="Regular; 24" position="1165,10" size="320,820" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="pfree" position="626,160" size="100,50" font="Regular; 20" zPosition="3" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="pused" position="631,506" size="100,50" font="Regular; 22" zPosition="3" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="slide" position="740,14" size="50,811" render="Progress" zPosition="3" borderWidth="1" orientation="orBottomToTop" />
+                <ePixmap pixmap="skin_default/div-h.png" position="0,844" zPosition="2" size="1500,6" />
+                <widget name="key_red" position="22,860" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 30" transparent="1" foregroundColor="red" />
+                <widget name="key_green" position="621,860" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 30" transparent="1" foregroundColor="green" />
+                <widget name="key_blue" position="1239,860" zPosition="2" size="220,60" valign="center" halign="center" font="Regular; 30" transparent="1" foregroundColor="blue" />
             </screen>"""
     else:
         skin = """<screen name="CacheFlushInfoScreen" position="center,50" zPosition="2" size="540,500" title="CacheFlush Info" backgroundColor="#31000000" >
