@@ -8,7 +8,7 @@ from Components.config import ConfigSubsection, config, ConfigSelection
 #
 #    Plugin for Dreambox-Enigma2
 #    version:
-VERSION = "2.0_r4"
+# VERSION = "2.0_r4"
 #    Coded by shamann & ims (c)2012 as ClearMem on basic idea by moulikpeta
 #   latest modyfication by ims:
 #   - ngettext, getMemory, freeMemory, WHERE_PLUGINMENU, Info, translate
