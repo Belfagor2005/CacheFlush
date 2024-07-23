@@ -2,17 +2,23 @@
 # -*- coding: utf-8 -*-
 
 from . import _
+
 from Components.ActionMap import ActionMap
 from Components.ConfigList import ConfigListScreen
 from Components.Label import Label
 from Components.ProgressBar import ProgressBar
-from Components.config import ConfigInteger, config, getConfigListEntry
-from Components.config import ConfigYesNo, ConfigSelection
+from Components.config import (
+    ConfigInteger,
+    config,
+    getConfigListEntry,
+    ConfigYesNo,
+    ConfigSelection,
+)
 from Screens.Screen import Screen
-from enigma import eTimer, getDesktop
+from enigma import (eTimer, getDesktop)
 from os import system
-# from .plugin import VERSION
 import os
+
 VERSION = "2.0_r4"
 HD = False
 screenwidth = getDesktop(0).size()

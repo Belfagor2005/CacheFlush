@@ -2,8 +2,14 @@
 
 # for localized messages
 from . import _
+
 from Plugins.Plugin import PluginDescriptor
-from Components.config import ConfigSubsection, config, ConfigSelection
+from Components.config import (
+    ConfigSubsection,
+    config,
+    ConfigSelection,
+)
+
 # #####################################################################
 #
 #    Plugin for Dreambox-Enigma2
