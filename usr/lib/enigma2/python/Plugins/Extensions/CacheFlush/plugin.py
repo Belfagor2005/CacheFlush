@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 # for localized messages
@@ -58,12 +59,25 @@ def Plugins(path, **kwargs):
     name = "CacheFlush"
     descr = _("Automatic cache flushing")
     list = [PluginDescriptor(where=[PluginDescriptor.WHERE_SESSIONSTART], fnc=sessionAutostart)]
-    if config.plugins.CacheFlush.where.value == "0":
-        list.append(PluginDescriptor(name=name, description=descr, where=PluginDescriptor.WHERE_PLUGINMENU, needsRestart=True, icon='plugin.png', fnc=main))
-    elif config.plugins.CacheFlush.where.value == "1":
-        list.append(PluginDescriptor(name=name, description=descr, where=PluginDescriptor.WHERE_MENU, needsRestart=True, fnc=startSetup))
-    elif config.plugins.CacheFlush.where.value == "2":
-        list.append(PluginDescriptor(name=name, description=descr, where=PluginDescriptor.WHERE_EXTENSIONSMENU, needsRestart=True, fnc=main))
-    elif config.plugins.CacheFlush.where.value == "3":
-        list.append(PluginDescriptor(name=name, description=descr, where=PluginDescriptor.WHERE_EVENTINFO, needsRestart=True, fnc=main))
+
+    where_options = {
+        "0": PluginDescriptor.WHERE_PLUGINMENU,
+        "1": PluginDescriptor.WHERE_MENU,
+        "2": PluginDescriptor.WHERE_EXTENSIONSMENU,
+        "3": PluginDescriptor.WHERE_EVENTINFO,
+    }
+
+    where_value = config.plugins.CacheFlush.where.value
+    if where_value in where_options:
+        list.append(
+            PluginDescriptor(
+                name=name,
+                description=descr,
+                where=where_options[where_value],
+                needsRestart=True,
+                icon='plugin.png' if where_value == "0" else None,
+                fnc=main if where_value != "1" else startSetup
+            )
+        )
+
     return list

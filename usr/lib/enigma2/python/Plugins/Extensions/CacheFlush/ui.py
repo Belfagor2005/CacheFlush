@@ -78,7 +78,6 @@ def dropCache():
         system("echo 3 > /proc/sys/vm/drop_caches")
         print("[CacheFlush] free pagecache, dentries and inodes")
 
-
 def getMinFreeKbytes():
     for line in open('/proc/sys/vm/min_free_kbytes', 'r'):
         line = line.strip()
