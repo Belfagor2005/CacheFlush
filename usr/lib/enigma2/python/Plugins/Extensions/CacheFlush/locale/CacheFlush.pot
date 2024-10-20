@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dima73\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-30 20:05+0200\n"
+"POT-Creation-Date: 2024-10-20 10:59+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: vovan43 <vovan43@ex.ua>\n"
 "Language-Team: Dima-73@inbox.lv\n"
@@ -13,40 +13,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: plugin.py\n"
 "X-Poedit-SearchPath-1: ui.py\n"
 
-#: plugin.py:31
+#: plugin.py:38
 msgid "plugins"
 msgstr ""
 
-#: plugin.py:31
+#: plugin.py:38
 msgid "menu-system"
 msgstr ""
 
-#: plugin.py:31
+#: plugin.py:38
 msgid "extensions"
 msgstr ""
 
-#: plugin.py:31
+#: plugin.py:38
 msgid "event info"
 msgstr ""
 
-#: plugin.py:37 ui.py:111 ui.py:137
+#: plugin.py:44 ui.py:128 ui.py:154
 msgid "Setup CacheFlush"
 msgstr ""
 
-#: plugin.py:53
+#: plugin.py:60
 msgid "Automatic cache flushing"
 msgstr ""
 
-#: ui.py:24
+#: ui.py:29
 msgid "pagecache"
 msgstr ""
 
-#: ui.py:31 ui.py:39
+#: ui.py:36 ui.py:44
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -54,7 +54,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: ui.py:47
+#: ui.py:52
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -62,111 +62,116 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: ui.py:51
+#: ui.py:56
 msgid "Default"
 msgstr ""
 
-#: ui.py:122
+#: ui.py:139
 msgid "Save"
 msgstr ""
 
-#: ui.py:123 ui.py:368
+#: ui.py:140 ui.py:382
 msgid "Cancel"
 msgstr ""
 
-#: ui.py:124 ui.py:370
+#: ui.py:141 ui.py:384
 msgid "Clear Now"
 msgstr ""
 
-#: ui.py:125
+#: ui.py:142
 msgid "Info"
 msgstr ""
 
-#: ui.py:131
+#: ui.py:148
 #, python-format
 msgid "Uncached memory: %s kB,   ( default: %s kB )"
 msgstr ""
 
-#: ui.py:141
+#: ui.py:158
 msgid "Enable CacheFlush"
 msgstr ""
 
-#: ui.py:143
+#: ui.py:160
 msgid "Auto timeout"
 msgstr ""
 
-#: ui.py:144
+#: ui.py:161
 msgid "Time of info message"
 msgstr ""
 
-#: ui.py:146
+#: ui.py:163
 msgid "Auto timeout (5-150min)"
 msgstr ""
 
-#: ui.py:147
+#: ui.py:164
 msgid "Time of info message (1-10sec)"
 msgstr ""
 
-#: ui.py:149
+#: ui.py:166
 msgid "Cache drop type"
 msgstr ""
 
-#: ui.py:150
+#: ui.py:167
 msgid "Clean \"dirty\" cache too"
 msgstr ""
 
-#: ui.py:152
+#: ui.py:169
 msgid "Show info on screen"
 msgstr ""
 
-#: ui.py:154
+#: ui.py:171
 msgid "Display plugin in"
 msgstr ""
 
-#: ui.py:156
+#: ui.py:173
 msgid "Uncached memory size"
 msgstr ""
 
-#: ui.py:210
+#: ui.py:224
 msgid "Memory:"
 msgstr ""
 
-#: ui.py:210
+#: ui.py:224
 msgid "MB"
 msgstr ""
 
-#: ui.py:212
+#: ui.py:226
 msgid "Used:"
 msgstr ""
 
-#: ui.py:214
+#: ui.py:228
 msgid "Free:"
 msgstr ""
 
-#: ui.py:273
+#: ui.py:287
 msgid "Starting"
 msgstr ""
 
-#: ui.py:292
+#: ui.py:306
 msgid "CacheFlush Status"
 msgstr ""
 
-#: ui.py:300
+#: ui.py:314
 msgid "Started"
 msgstr ""
 
-#: ui.py:302
+#: ui.py:316
 msgid "Stopped"
 msgstr ""
 
-#: ui.py:314
+#: ui.py:328
 msgid "Mem cleared"
 msgstr ""
 
-#: ui.py:360 ui.py:382
+#: ui.py:374
 msgid "CacheFlush Info"
 msgstr ""
 
-#: ui.py:369
+#: ui.py:383
 msgid "Refresh"
+msgstr ""
+
+#: ui.py:396
+#, python-format
+msgid "CacheFlush Info v.%s"
 msgstr ""
