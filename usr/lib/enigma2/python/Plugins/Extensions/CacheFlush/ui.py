@@ -55,7 +55,7 @@ for i in range(1, 11):
 config.plugins.CacheFlush.timescrinfo = ConfigSelection(default="10", choices=choicelist)
 choicelist = [("0", _("Default"))]
 for i in range(1, 21):
-    choicelist.append(("%d" % i, "%d kB" % (1024*i)))
+    choicelist.append(("%d" % i, "%d kB" % (1024 * i)))
 config.plugins.CacheFlush.uncached = ConfigSelection(default="1", choices=choicelist)
 config.plugins.CacheFlush.free_default = ConfigInteger(default=0, limits=(0, 9999999999))
 cfg = config.plugins.CacheFlush
@@ -77,6 +77,7 @@ def dropCache():
     elif cfg.type.value == "3":  # free pagecache, dentries and inodes
         system("echo 3 > /proc/sys/vm/drop_caches")
         print("[CacheFlush] free pagecache, dentries and inodes")
+
 
 def getMinFreeKbytes():
     for line in open('/proc/sys/vm/min_free_kbytes', 'r'):
@@ -127,14 +128,12 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
         ConfigListScreen.__init__(self, self.list, session=session, on_change=self.changedEntry)
         self.setup_title = _("Setup CacheFlush")
         self["actions"] = ActionMap(["SetupActions", "ColorActions"],
-                                    {
-                                        "cancel": self.keyCancel,
-                                        "green": self.keySave,
-                                        "ok": self.keySave,
-                                        "red": self.keyCancel,
-                                        "blue": self.freeMemory,
-                                        "yellow": self.memoryInfo,
-                                    }, -2)
+                                    {"cancel": self.keyCancel,
+                                     "green": self.keySave,
+                                     "ok": self.keySave,
+                                     "red": self.keyCancel,
+                                     "blue": self.freeMemory,
+                                     "yellow": self.memoryInfo}, -2)
 
         self["key_green"] = Label(_("Save"))
         self["key_red"] = Label(_("Cancel"))
@@ -220,14 +219,14 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
             self["memory"].setText("")
             self["slide"].hide()
             memory = ""
-            if par&0x01:
-                memory += "".join((_("Memory:"), " %d " % (mm/1024), _("MB"), "  "))
-            if par&0x02:
-                memory += "".join((_("Used:"), " %.2f%s" % (100.*mu/mm, '%'), "  "))
-            if par&0x04:
-                memory += "".join((_("Free:"), " %.2f%s" % (100.*mf/mm, '%')))
-            if par&0x10:
-                self["slide"].setValue(int(100.0*mu/mm+0.25))
+            if par & 0x01:
+                memory += "".join((_("Memory:"), " %d " % (mm // 1024), _("MB"), "  "))
+            if par & 0x02:
+                memory += "".join((_("Used:"), " %.2f%s" % (100. * mu // mm, '%'), "  "))
+            if par & 0x04:
+                memory += "".join((_("Free:"), " %.2f%s" % (100. * mf // mm, '%')))
+            if par & 0x10:
+                self["slide"].setValue(int(100.0 * mu // mm + 0.25))
                 self["slide"].show()
             return memory
         except Exception as e:
@@ -244,7 +243,7 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
         if cfg.uncached.value == "0":
             setMinFreeKbytes(cfg.free_default.value)
         else:
-            setMinFreeKbytes(int(cfg.uncached.value)*1024)
+            setMinFreeKbytes(int(cfg.uncached.value) * 1024)
 
 
 class CacheFlushAutoMain():
@@ -304,8 +303,6 @@ class CacheFlushAutoScreen(Screen):
 
     def __startsuspend(self):
         self.setTitle(_("CacheFlush Status"))
-        # if self.showTimer.isActive():
-            # self.showTimer.stop()
         self.showTimer.start(int(cfg.timescrinfo.value) * 1000)
 
     def __chckState(self):
@@ -317,7 +314,7 @@ class CacheFlushAutoScreen(Screen):
             self.state = cfg.enable.value
             if cfg.scrinfo.value and CacheFlushAuto.dialog is not None:
                 CacheFlushAuto.dialog.show()
-        self.CacheFlushTimer.start(int(cfg.timeout.value)*60000)
+        self.CacheFlushTimer.start(int(cfg.timeout.value) * 60000)
 
     def __makeWhatYouNeed(self):
         try:
@@ -336,7 +333,7 @@ class CacheFlushAutoScreen(Screen):
 
     def __setUncachedMemory(self):
         if cfg.uncached.value != "0":
-            setMinFreeKbytes(int(cfg.uncached.value)*1024)
+            setMinFreeKbytes(int(cfg.uncached.value) * 1024)
 
 
 class CacheFlushInfoScreen(Screen):
@@ -373,11 +370,9 @@ class CacheFlushInfoScreen(Screen):
         Screen.__init__(self, session)
         self.setup_title = _("CacheFlush Info")
         self["actions"] = ActionMap(["SetupActions", "ColorActions"],
-                                    {
-                                      "cancel": self.cancel,
-                                      "blue": self.freeMemory,
-                                      "green": self.getMemInfo,
-                                    }, -2)
+                                    {"cancel": self.cancel,
+                                     "blue": self.freeMemory,
+                                     "green": self.getMemInfo}, -2)
 
         self["key_red"] = Label(_("Cancel"))
         self["key_green"] = Label(_("Refresh"))
@@ -421,9 +416,9 @@ class CacheFlushInfoScreen(Screen):
             self['rmemtext'].setText(rtext)
             self['rmemvalue'].setText(rvalue)
 
-            self["slide"].setValue(int(100.0*(mem-free)/mem+0.25))
-            self['pfree'].setText("%.1f %s" % (100.*free/mem, '%'))
-            self['pused'].setText("%.1f %s" % (100.*(mem-free)/mem, '%'))
+            self["slide"].setValue(int(100.0 * (mem - free) // mem + 0.25))
+            self['pfree'].setText("%.1f %s" % (100. * free // mem, '%'))
+            self['pused'].setText("%.1f %s" % (100. * (mem - free) // mem, '%'))
 
         except Exception as e:
             print("[CacheFlush] getMemory FAIL:", e)
