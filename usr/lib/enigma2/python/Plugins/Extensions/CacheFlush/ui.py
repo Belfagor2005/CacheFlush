@@ -135,7 +135,7 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
                                      "blue": self.freeMemory,
                                      "yellow": self.memoryInfo}, -2)
 
-        self["key_green"] = Label(_("Save"))
+        self["key_green"] = Label(_("- - - -"))
         self["key_red"] = Label(_("Cancel"))
         self["key_blue"] = Label(_("Clear Now"))
         self["key_yellow"] = Label(_("Info"))
@@ -198,6 +198,7 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
     def changedEntry(self):
         for x in self.onChangedEntry:
             x()
+        self['key_green'].instance.setText(_('Save') if self['config'].isChanged() else '- - - -')
 
     def freeMemory(self):
         dropCache()
