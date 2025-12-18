@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Dima73\n"
+"Project-Id-Version: Cache Flush\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-25 19:57+0200\n"
+"POT-Creation-Date: 2025-12-18 18:32+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: vovan43 <vovan43@ex.ua>\n"
 "Language-Team: Dima-73@inbox.lv\n"
@@ -12,124 +12,174 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
 
+#: plugin.py:38
+msgid "plugins"
+msgstr "плагінах"
+
+#: plugin.py:38
+msgid "menu-system"
+msgstr "меню-система"
+
+#: plugin.py:38
+msgid "extensions"
+msgstr "доповненнях"
+
+#: plugin.py:38
+msgid "event info"
+msgstr "меню подій"
+
+#: plugin.py:44 ui.py:169 ui.py:198
+msgid "Setup CacheFlush"
+msgstr "Налаштування КешФлеш"
+
+#: plugin.py:60
+msgid "Automatic cache flushing"
+msgstr "Автоматична очистка кеша"
+
+#: ui.py:37
+msgid "pagecache"
+msgstr "кеш сторінок"
+
+#: ui.py:44 ui.py:52
+#, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d хвилина"
 msgstr[1] "%d минуты"
 msgstr[2] "%d минут"
 
+#: ui.py:60
+#, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунды"
 msgstr[2] "%d секунд"
 
-msgid "Auto timeout"
-msgstr "Авто запуск через"
+#: ui.py:64
+msgid "Default"
+msgstr "За замовчуванням"
 
-msgid "Auto timeout (5-150min)"
-msgstr "Авто запуск (5-150хв)"
+#: ui.py:178
+msgid "- - - -"
+msgstr ""
 
-msgid "Automatic cache flushing"
-msgstr "Автоматична очистка кеша"
-
-msgid "Cache drop type"
-msgstr "Тип очистки кеша"
-
-msgid "CacheFlush Info"
-msgstr "КешФлеш інфо"
-
-msgid "CacheFlush Status"
-msgstr "Статус КешФлеш"
-
+#: ui.py:179 ui.py:459
 msgid "Cancel"
 msgstr "Вихід"
 
-msgid "Clean \"dirty\" cache too"
-msgstr "Очистити теж \"брудний\" кеш"
-
+#: ui.py:180 ui.py:461
 msgid "Clear Now"
 msgstr "Очистити"
 
-msgid "Default"
-msgstr "дефолт"
-
-msgid "Display plugin in"
-msgstr "Показати плагін в "
-
-msgid "Enable CacheFlush"
-msgstr "Включити КешФлеш"
-
-msgid "Free:"
-msgstr "Вільно:"
-
+#: ui.py:181
 msgid "Info"
 msgstr "Інфо"
 
-msgid "MB"
-msgstr "MB"
+#: ui.py:188
+#, python-format
+msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
+msgstr ""
+"Некешована пам'ять: %(current)s КБ, (за замовчуванням: %(default)s КБ)"
 
-msgid "Mem cleared"
-msgstr "Пам'ять очищена"
+#: ui.py:202
+msgid "Enable CacheFlush"
+msgstr "Включити КешФлеш"
 
-msgid "Memory:"
-msgstr "Пам'ять:"
+#: ui.py:204
+msgid "Auto timeout"
+msgstr "Авто запуск через"
 
-msgid "Refresh"
-msgstr "Оновити"
-
-msgid "Save"
-msgstr "Зберегти"
-
-msgid "Setup CacheFlush"
-msgstr "Налаштування КешФлеш"
-
-msgid "Show info on screen"
-msgstr "Показати інфо на екрані"
-
-msgid "Started"
-msgstr "Старт"
-
-msgid "Starting"
-msgstr "Запущено"
-
-msgid "Stopped"
-msgstr "Зупинено"
-
+#: ui.py:205
 msgid "Time of info message"
 msgstr "Таймаут повідомлення"
 
+#: ui.py:207
+msgid "Auto timeout (5-150min)"
+msgstr "Авто запуск (5-150хв)"
+
+#: ui.py:208
 msgid "Time of info message (1-10sec)"
 msgstr "Таймаут повідомлення (1-10 сек)"
 
+#: ui.py:210
+msgid "Cache drop type"
+msgstr "Тип очистки кеша"
+
+#: ui.py:211
+msgid "Clean \"dirty\" cache too"
+msgstr "Очистити теж \"брудний\" кеш"
+
+#: ui.py:213
+msgid "Show info on screen"
+msgstr "Показати інфо на екрані"
+
+#: ui.py:216
 msgid "Uncached memory size"
 msgstr "Об'єм пам'яті без кеша"
 
-msgid "Uncached memory: %s kB,   ( default: %s kB )"
-msgstr "Об'єм пам'яті без кеша: %s kB,   (дефолт: %s kB )"
+#: ui.py:245
+msgid "Save"
+msgstr "Зберегти"
 
+#: ui.py:269
+msgid "Memory:"
+msgstr "Пам'ять:"
+
+#: ui.py:269
+msgid "MB"
+msgstr "MB"
+
+#: ui.py:271
 msgid "Used:"
 msgstr "Занято:"
 
-msgid "dentries and inodes"
-msgstr "dentries і дескриптори"
+#: ui.py:273
+msgid "Free:"
+msgstr "Вільно:"
 
-msgid "event info"
-msgstr "меню подій"
+#: ui.py:340
+msgid "Starting"
+msgstr "Запущено"
 
-msgid "extensions"
-msgstr "доповненнях"
+#: ui.py:359
+msgid "CacheFlush Status"
+msgstr "Статус КешФлеш"
 
-msgid "menu-system"
-msgstr "меню-система"
+#: ui.py:365
+msgid "Started"
+msgstr "Старт"
 
-msgid "pagecache"
-msgstr "кеш сторінок"
+#: ui.py:367
+msgid "Stopped"
+msgstr "Зупинено"
 
-msgid "pagecache, dentries and inodes"
-msgstr "кеш сторінок , dentries і дескриптори"
+#: ui.py:379
+msgid "Mem cleared"
+msgstr "Пам'ять очищена"
 
-msgid "plugins"
-msgstr "плагінах"
+#: ui.py:453
+msgid "CacheFlush Info"
+msgstr "КешФлеш інфо"
+
+#: ui.py:460
+msgid "Refresh"
+msgstr "Оновити"
+
+#: ui.py:473
+#, python-format
+msgid "CacheFlush Info v.%s"
+msgstr ""
+
+#~ msgid "Display plugin in"
+#~ msgstr "Показати плагін в "
+
+#~ msgid "dentries and inodes"
+#~ msgstr "dentries і дескриптори"
+
+#~ msgid "pagecache, dentries and inodes"
+#~ msgstr "кеш сторінок , dentries і дескриптори"
