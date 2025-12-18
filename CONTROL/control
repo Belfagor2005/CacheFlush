@@ -1,5 +1,5 @@
 Package: enigma2-plugin-extensions-cacheflush
-Version: 2.0_r5
+Version: 2.2
 Section: base
 Priority: optional
 Architecture: all

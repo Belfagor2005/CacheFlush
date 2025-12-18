@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import absolute_import
-__version__ = "2.0_r5"
+__version__ = "2.2"
 
 from Components.Language import language
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
