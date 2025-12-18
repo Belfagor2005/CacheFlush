@@ -392,29 +392,29 @@ class CacheFlushAutoScreen(Screen):
 
 class CacheFlushInfoScreen(Screen):
     if WQHD:
-        skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="2200,1400" title="CacheFlush Info" backgroundColor="#31000000">
+        skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="2100,1400" title="CacheFlush Info" backgroundColor="#31000000" flags="wfNoBorder">
                 <widget name="lmemtext" font="Regular; 32" position="30,30" size="450,1200" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
-                <widget name="lmemvalue" font="Regular; 32" position="485,30" size="450,1200" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
-                <widget name="rmemtext" font="Regular; 32" position="1220,30" size="450,1200" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
-                <widget name="rmemvalue" font="Regular; 32" position="1675,30" size="450,1200" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
-                <widget name="pfree" position="940,200" size="150,80" font="Regular; 28" zPosition="3" halign="right" backgroundColor="#2890fe" transparent="1" />
-                <widget name="pused" position="940,950" size="150,80" font="Regular; 30" zPosition="3" halign="right" backgroundColor="#2890fe" transparent="1" />
-                <widget name="slide" position="1100,30" size="70,1200" render="Progress" zPosition="3" borderWidth="2" orientation="orBottomToTop" />
-                <ePixmap pixmap="skin_default/div-h.png" position="0,1250" zPosition="2" size="2200,8" />
+                <widget name="lmemvalue" font="Regular; 32" position="439,30" size="450,1200" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="rmemtext" font="Regular; 32" position="1140,30" size="450,1200" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
+                <widget name="rmemvalue" font="Regular; 32" position="1570,30" size="450,1200" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="pfree" position="850,200" size="150,80" font="Regular; 28" zPosition="3" halign="right" backgroundColor="#2890fe" transparent="1" />
+                <widget name="pused" position="847,950" size="150,80" font="Regular; 30" zPosition="3" halign="right" backgroundColor="#2890fe" transparent="1" />
+                <widget name="slide" position="1010,30" size="70,1200" render="Progress" zPosition="3" borderWidth="2" orientation="orBottomToTop" />
+                <ePixmap pixmap="skin_default/div-h.png" position="0,1255" zPosition="2" size="2100,8" />
                 <widget name="key_red" position="100,1270" zPosition="2" size="400,90" valign="center" halign="center" font="Regular; 36" transparent="1" foregroundColor="red" />
                 <widget name="key_green" position="850,1270" zPosition="2" size="400,90" valign="center" halign="center" font="Regular; 36" transparent="1" foregroundColor="green" />
                 <widget name="key_blue" position="1600,1270" zPosition="2" size="400,90" valign="center" halign="center" font="Regular; 36" transparent="1" foregroundColor="blue" />
             </screen>"""
     elif FHD:
-        skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="1800,1080" title="CacheFlush Info" backgroundColor="#31000000" flags="wfNoBorder">
-                <widget name="lmemtext" font="Regular; 26" position="30,20" size="400,900" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
+        skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="1900,1070" title="CacheFlush Info" backgroundColor="#31000000" flags="wfNoBorder">
+                <widget name="lmemtext" font="Regular; 26" position="50,20" size="400,900" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
                 <widget name="lmemvalue" font="Regular; 26" position="435,20" size="400,900" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
                 <widget name="rmemtext" font="Regular; 26" position="980,20" size="400,900" zPosition="2" valign="top" halign="left" backgroundColor="#31000000" transparent="1" />
-                <widget name="rmemvalue" font="Regular; 26" position="1385,20" size="400,900" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
+                <widget name="rmemvalue" font="Regular; 26" position="1395,20" size="400,900" zPosition="2" valign="top" halign="right" backgroundColor="#31000000" transparent="1" />
                 <widget name="pfree" position="770,150" size="120,60" font="Regular; 24" zPosition="3" halign="right" backgroundColor="#2890fe" transparent="1" />
                 <widget name="pused" position="770,750" size="120,60" font="Regular; 26" zPosition="3" halign="right" backgroundColor="#2890fe" transparent="1" />
                 <widget name="slide" position="900,20" size="50,900" render="Progress" zPosition="3" borderWidth="1" orientation="orBottomToTop" />
-                <ePixmap pixmap="skin_default/div-h.png" position="0,950" zPosition="2" size="1800,6" />
+                <ePixmap pixmap="skin_default/div-h.png" position="0,955" zPosition="2" size="1800,6" />
                 <widget name="key_red" position="80,970" zPosition="2" size="350,80" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="red" />
                 <widget name="key_green" position="700,970" zPosition="2" size="350,80" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="green" />
                 <widget name="key_blue" position="1320,970" zPosition="2" size="350,80" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="blue" />
