@@ -35,7 +35,8 @@ from Components.config import (
 # #####################################################################
 
 config.plugins.CacheFlush = ConfigSubsection()
-config.plugins.CacheFlush.where = ConfigSelection(default="0", choices=[("0", _("plugins")), ("1", _("menu-system")), ("2", _("extensions")), ("3", _("event info"))])
+config.plugins.CacheFlush.where = ConfigSelection(default="0", choices=[("0", _(
+    "plugins")), ("1", _("menu-system")), ("2", _("extensions")), ("3", _("event info"))])
 
 
 def startSetup(menuid, **kwargs):
@@ -58,7 +59,11 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
     name = "CacheFlush"
     descr = _("Automatic cache flushing")
-    list = [PluginDescriptor(where=[PluginDescriptor.WHERE_SESSIONSTART], fnc=sessionAutostart)]
+    list = [
+        PluginDescriptor(
+            where=[
+                PluginDescriptor.WHERE_SESSIONSTART],
+            fnc=sessionAutostart)]
 
     where_options = {
         "0": PluginDescriptor.WHERE_PLUGINMENU,

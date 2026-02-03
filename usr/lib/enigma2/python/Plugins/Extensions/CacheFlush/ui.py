@@ -34,7 +34,15 @@ elif screenwidth.width() >= 1280:
     HD = True
 
 config.plugins.CacheFlush.enable = ConfigYesNo(default=False)
-config.plugins.CacheFlush.type = ConfigSelection(default="3", choices=[("1", _("pagecache")), ("2", ("dentries and inodes")), ("3", ("pagecache, dentries and inodes"))])
+config.plugins.CacheFlush.type = ConfigSelection(
+    default="3",
+    choices=[
+        ("1",
+         _("pagecache")),
+        ("2",
+         ("dentries and inodes")),
+        ("3",
+         ("pagecache, dentries and inodes"))])
 config.plugins.CacheFlush.sync = ConfigYesNo(default=False)
 
 global NGETTEXT
@@ -49,23 +57,41 @@ except Exception as e:
 choicelist = []
 for i in range(5, 151, 5):
     if NGETTEXT:
-        choicelist.append(("%d" % i, ngettext("%d minute", "%d minutes", i) % i))
+        choicelist.append(
+            ("%d" %
+             i,
+             ngettext(
+                 "%d minute",
+                 "%d minutes",
+                 i) %
+                i))
     else:
         choicelist.append(("%d" % i))
-config.plugins.CacheFlush.timeout = ConfigSelection(default="30", choices=choicelist)
+config.plugins.CacheFlush.timeout = ConfigSelection(
+    default="30", choices=choicelist)
 config.plugins.CacheFlush.scrinfo = ConfigYesNo(default=False)
 choicelist = []
 for i in range(1, 11):
     if NGETTEXT:
-        choicelist.append(("%d" % i, ngettext("%d second", "%d seconds", i) % i))
+        choicelist.append(
+            ("%d" %
+             i,
+             ngettext(
+                 "%d second",
+                 "%d seconds",
+                 i) %
+                i))
     else:
         choicelist.append(("%d" % i))
-config.plugins.CacheFlush.timescrinfo = ConfigSelection(default="10", choices=choicelist)
+config.plugins.CacheFlush.timescrinfo = ConfigSelection(
+    default="10", choices=choicelist)
 choicelist = [("0", _("Default"))]
 for i in range(1, 21):
     choicelist.append(("%d" % i, "%d kB" % (1024 * i)))
-config.plugins.CacheFlush.uncached = ConfigSelection(default="1", choices=choicelist)
-config.plugins.CacheFlush.free_default = ConfigInteger(default=0, limits=(0, 9999999999))
+config.plugins.CacheFlush.uncached = ConfigSelection(
+    default="1", choices=choicelist)
+config.plugins.CacheFlush.free_default = ConfigInteger(
+    default=0, limits=(0, 9999999999))
 cfg = config.plugins.CacheFlush
 
 # display mem, used, free and progressbar
@@ -165,7 +191,11 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
         Screen.__init__(self, session)
         self.onChangedEntry = []
         self.list = []
-        ConfigListScreen.__init__(self, self.list, session=session, on_change=self.changedEntry)
+        ConfigListScreen.__init__(
+            self,
+            self.list,
+            session=session,
+            on_change=self.changedEntry)
         self.setup_title = _("Setup CacheFlush")
         self["actions"] = ActionMap(["SetupActions", "ColorActions"],
                                     {"cancel": self.keyCancel,
@@ -187,9 +217,9 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
         self["min_free_kb"] = Label(
             _("Uncached memory: %(current)s kB,   ( default: %(default)s kB )") % {
                 "current": getMinFreeKbytes(),
-                "default": str(cfg.free_default.value),
-            }
-        )
+                "default": str(
+                    cfg.free_default.value),
+            })
 
         self.runSetup()
         self.onLayoutFinish.append(self.layoutFinished)
@@ -213,7 +243,11 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
                 getConfigListEntry(_("Show info on screen"), cfg.scrinfo),
                 getConfigListEntry(timetext, cfg.timescrinfo),
             ))
-        self.list.extend((getConfigListEntry(_("Uncached memory size"), cfg.uncached),))
+        self.list.extend(
+            (getConfigListEntry(
+                _("Uncached memory size"),
+                cfg.uncached),
+             ))
         self["config"].list = self.list
         self["config"].setList(self.list)
 
@@ -242,7 +276,8 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
     def changedEntry(self):
         for x in self.onChangedEntry:
             x()
-        self['key_green'].instance.setText(_('Save') if self['config'].isChanged() else '- - - -')
+        self['key_green'].instance.setText(
+            _('Save') if self['config'].isChanged() else '- - - -')
 
     def freeMemory(self):
         dropCache()
@@ -266,11 +301,14 @@ class CacheFlushSetupMenu(Screen, ConfigListScreen):
             self["slide"].hide()
             memory = ""
             if par & 0x01:
-                memory += "".join((_("Memory:"), " %d " % (mm // 1024), _("MB"), "  "))
+                memory += "".join((_("Memory:"), " %d " %
+                                  (mm // 1024), _("MB"), "  "))
             if par & 0x02:
-                memory += "".join((_("Used:"), " %.2f%s" % (100. * mu // mm, '%'), "  "))
+                memory += "".join((_("Used:"), " %.2f%s" %
+                                  (100. * mu // mm, '%'), "  "))
             if par & 0x04:
-                memory += "".join((_("Free:"), " %.2f%s" % (100. * mf // mm, '%')))
+                memory += "".join((_("Free:"), " %.2f%s" %
+                                  (100. * mf // mm, '%')))
             if par & 0x10:
                 self["slide"].setValue(int(100.0 * mu // mm + 0.25))
                 self["slide"].show()
@@ -340,13 +378,15 @@ class CacheFlushAutoScreen(Screen):
         self['message_label'] = Label(_("Starting"))
         self.CacheFlushTimer = eTimer()
         if exists('/var/lib/dpkg/info'):
-            self.CacheFlushTimer_conn = self.CacheFlushTimer.timeout.connect(self.__makeWhatYouNeed)
+            self.CacheFlushTimer_conn = self.CacheFlushTimer.timeout.connect(
+                self.__makeWhatYouNeed)
         else:
             self.CacheFlushTimer.callback.append(self.__makeWhatYouNeed)
         # self.CacheFlushTimer.timeout.get().append(self.__makeWhatYouNeed)
         self.showTimer = eTimer()
         if exists('/var/lib/dpkg/info'):
-            self.showTimer_conn = self.showTimer.timeout.connect(self.__endShow)
+            self.showTimer_conn = self.showTimer.timeout.connect(
+                self.__endShow)
         else:
             self.showTimer.callback.append(self.__endShow)
         # self.showTimer.timeout.get().append(self.__endShow)
@@ -506,7 +546,8 @@ class CacheFlushInfoScreen(Screen):
             if mem > 0:
                 self["slide"].setValue(int(100.0 * (mem - free) // mem + 0.25))
                 self['pfree'].setText("%.1f %s" % (100. * free // mem, '%'))
-                self['pused'].setText("%.1f %s" % (100. * (mem - free) // mem, '%'))
+                self['pused'].setText("%.1f %s" %
+                                      (100. * (mem - free) // mem, '%'))
 
         except Exception as e:
             print("[CacheFlush] getMemory FAIL:", e)
