@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import absolute_import
-__version__ = "2.2"
 
 from Components.Language import language
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 import gettext
 import os
 
+__version__ = "2.2"
 
 PluginLanguageDomain = 'CacheFlush'
 PluginLanguagePath = 'Extensions/CacheFlush/locale'
