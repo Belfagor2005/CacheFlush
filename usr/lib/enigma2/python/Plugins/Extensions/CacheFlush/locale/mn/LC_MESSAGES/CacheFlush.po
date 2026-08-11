@@ -45,8 +45,8 @@ msgstr "CacheFlush статус"
 msgid "Cancel"
 msgstr "Цуцлах"
 
-msgid "Clean \"
-msgstr "Цэвэр \"
+msgid "Clean \\\\\\\\"
+msgstr "Цэвэр \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Одоо арилгах"

@@ -45,8 +45,8 @@ msgstr "Hali ya CacheFlush"
 msgid "Cancel"
 msgstr "Ghairi"
 
-msgid "Clean \"
-msgstr "Safi \"
+msgid "Clean \\\\\\\\"
+msgstr "Safi \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Wazi Sasa"

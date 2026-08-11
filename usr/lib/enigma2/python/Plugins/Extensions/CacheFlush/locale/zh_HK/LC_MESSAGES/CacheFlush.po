@@ -45,8 +45,8 @@ msgstr "快取刷新狀態"
 msgid "Cancel"
 msgstr "取消"
 
-msgid "Clean \"
-msgstr "乾淨的 \"
+msgid "Clean \\\\\\\\"
+msgstr "乾淨的 \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "立即清除"

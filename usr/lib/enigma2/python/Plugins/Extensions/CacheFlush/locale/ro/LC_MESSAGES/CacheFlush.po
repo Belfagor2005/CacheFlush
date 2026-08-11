@@ -45,8 +45,8 @@ msgstr "Stare CacheFlush"
 msgid "Cancel"
 msgstr "Anula"
 
-msgid "Clean \"
-msgstr "curat \"
+msgid "Clean \\\\\\\\"
+msgstr "curat \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Ștergeți acum"

@@ -45,8 +45,8 @@ msgstr "CacheFlush Staða"
 msgid "Cancel"
 msgstr "Hætta við"
 
-msgid "Clean \"
-msgstr "Hreinsa \"
+msgid "Clean \\\\\\\\"
+msgstr "Hreinsa \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Hreinsa núna"

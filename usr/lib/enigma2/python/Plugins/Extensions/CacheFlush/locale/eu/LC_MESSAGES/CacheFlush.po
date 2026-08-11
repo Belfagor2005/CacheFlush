@@ -45,8 +45,8 @@ msgstr "CacheFlush egoera"
 msgid "Cancel"
 msgstr "Utzi"
 
-msgid "Clean \"
-msgstr "Garbitu \"
+msgid "Clean \\\\\\\\"
+msgstr "Garbitu \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Garbitu orain"

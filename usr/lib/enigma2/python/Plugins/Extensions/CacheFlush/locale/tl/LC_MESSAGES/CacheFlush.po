@@ -45,8 +45,8 @@ msgstr "Katayuan ng CacheFlush"
 msgid "Cancel"
 msgstr "Kanselahin"
 
-msgid "Clean \"
-msgstr "malinis \"
+msgid "Clean \\\\\\\\"
+msgstr "malinis \\\\\\\\"
 
 msgid "Clear Now"
 msgstr ""

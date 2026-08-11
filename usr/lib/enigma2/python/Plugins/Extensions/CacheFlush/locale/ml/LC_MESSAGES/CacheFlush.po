@@ -45,8 +45,8 @@ msgstr "കാഷെഫ്ലഷ് നില"
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
-msgid "Clean \"
-msgstr "വൃത്തിയാക്കുക \"
+msgid "Clean \\\\\\\\"
+msgstr "വൃത്തിയാക്കുക \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ഇപ്പോൾ മായ്ക്കുക"

@@ -45,8 +45,8 @@ msgstr "CacheFlush-Status"
 msgid "Cancel"
 msgstr "Stornieren"
 
-msgid "Clean \"
-msgstr "Sauber \"
+msgid "Clean \\\\\\\\"
+msgstr "Sauber \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Jetzt löschen"

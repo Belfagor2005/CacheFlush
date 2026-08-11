@@ -45,8 +45,8 @@ msgstr "CacheFlush күйі"
 msgid "Cancel"
 msgstr "Болдырмау"
 
-msgid "Clean \"
-msgstr "Тазалау \"
+msgid "Clean \\\\\\\\"
+msgstr "Тазалау \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Қазір тазалау"

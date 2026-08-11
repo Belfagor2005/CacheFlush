@@ -45,8 +45,8 @@ msgstr "캐시 플러시 상태"
 msgid "Cancel"
 msgstr "취소"
 
-msgid "Clean \"
-msgstr "깨끗한 \"
+msgid "Clean \\\\\\\\"
+msgstr "깨끗한 \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "지금 지우기"

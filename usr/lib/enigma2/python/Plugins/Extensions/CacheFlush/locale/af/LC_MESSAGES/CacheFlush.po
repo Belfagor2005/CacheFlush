@@ -45,8 +45,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Kanselleer"
 
-msgid "Clean \"
-msgstr "Maak skoon \"
+msgid "Clean \\\\\\\\"
+msgstr "Maak skoon \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Vee nou uit"

@@ -45,8 +45,8 @@ msgstr "CacheFlush статусы"
 msgid "Cancel"
 msgstr "Баш тарту"
 
-msgid "Clean \"
-msgstr "Чиста \"
+msgid "Clean \\\\\\\\"
+msgstr "Чиста \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Хәзер чистарт"
@@ -118,7 +118,7 @@ msgid "menu-system"
 msgstr "меню-система"
 
 msgid "pagecache"
-msgstr ""
+msgstr "бит"
 
 msgid "plugins"
 msgstr "плагиннар"

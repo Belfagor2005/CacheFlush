@@ -45,8 +45,8 @@ msgstr "ЦацхеФлусх Статус"
 msgid "Cancel"
 msgstr "Откажи"
 
-msgid "Clean \"
-msgstr "Чисти \"
+msgid "Clean \\\\\\\\"
+msgstr "Чисти \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Обриши одмах"

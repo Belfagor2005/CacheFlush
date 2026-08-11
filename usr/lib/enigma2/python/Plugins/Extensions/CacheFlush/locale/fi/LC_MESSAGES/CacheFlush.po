@@ -45,8 +45,8 @@ msgstr "CacheFlush-tila"
 msgid "Cancel"
 msgstr "Peruuttaa"
 
-msgid "Clean \"
-msgstr "puhdas \"
+msgid "Clean \\\\\\\\"
+msgstr "puhdas \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Tyhjennä nyt"

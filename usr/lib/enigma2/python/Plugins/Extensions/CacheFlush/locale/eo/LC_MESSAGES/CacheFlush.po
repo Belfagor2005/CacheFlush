@@ -45,8 +45,8 @@ msgstr "Statuso de CacheFlush"
 msgid "Cancel"
 msgstr "Nuligi"
 
-msgid "Clean \"
-msgstr "Purigi \"
+msgid "Clean \\\\\\\\"
+msgstr "Purigi \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Klarigi Nun"

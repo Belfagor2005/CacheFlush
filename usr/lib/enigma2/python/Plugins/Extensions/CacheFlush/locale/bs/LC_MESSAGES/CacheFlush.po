@@ -45,8 +45,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Otkaži"
 
-msgid "Clean \"
-msgstr "Očisti \"
+msgid "Clean \\\\\\\\"
+msgstr "Očisti \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Obriši odmah"

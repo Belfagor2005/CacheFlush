@@ -45,8 +45,8 @@ msgstr "ক্যাশফ্লাশ স্ট্যাটাস"
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
-msgid "Clean \"
-msgstr "পরিষ্কার \"
+msgid "Clean \\\\\\\\"
+msgstr "পরিষ্কার \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "এখন সাফ করুন"

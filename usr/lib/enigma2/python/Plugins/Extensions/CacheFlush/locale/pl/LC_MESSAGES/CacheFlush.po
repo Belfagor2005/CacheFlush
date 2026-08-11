@@ -45,8 +45,8 @@ msgstr "Stan opróżniania pamięci podręcznej"
 msgid "Cancel"
 msgstr "Anulować"
 
-msgid "Clean \"
-msgstr "Czysty \"
+msgid "Clean \\\\\\\\"
+msgstr "Czysty \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Wyczyść teraz"

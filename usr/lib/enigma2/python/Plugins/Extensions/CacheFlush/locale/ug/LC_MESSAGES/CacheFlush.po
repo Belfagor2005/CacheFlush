@@ -45,8 +45,8 @@ msgstr "CacheFlush ھالىتى"
 msgid "Cancel"
 msgstr "بىكار قىلىش"
 
-msgid "Clean \"
-msgstr "پاكىز \"
+msgid "Clean \\\\\\\\"
+msgstr "پاكىز \\\\\\\\"
 
 msgid "Clear Now"
 msgstr ""

@@ -45,8 +45,8 @@ msgstr "Κατάσταση CacheFlush"
 msgid "Cancel"
 msgstr "Ματαίωση"
 
-msgid "Clean \"
-msgstr "Καθαρίστε \"
+msgid "Clean \\\\\\\\"
+msgstr "Καθαρίστε \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Καθαρίστε τώρα"

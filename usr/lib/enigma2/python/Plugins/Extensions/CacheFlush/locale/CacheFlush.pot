@@ -1,8 +1,5 @@
 #, fuzzy
 
-
-
-
 msgid "%d minute"
 msgstr ""
 
@@ -33,7 +30,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-msgid "Clean \"
+msgid "Clean \\"
 msgstr ""
 
 msgid "Clear Now"

@@ -45,8 +45,8 @@ msgstr "CacheFlush holati"
 msgid "Cancel"
 msgstr "Bekor qilish"
 
-msgid "Clean \"
-msgstr "Tozalash \"
+msgid "Clean \\\\\\\\"
+msgstr "Tozalash \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Hozir tozalang"

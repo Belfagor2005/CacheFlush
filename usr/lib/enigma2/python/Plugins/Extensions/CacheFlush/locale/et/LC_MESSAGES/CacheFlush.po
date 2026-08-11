@@ -45,8 +45,8 @@ msgstr "CacheFlushi olek"
 msgid "Cancel"
 msgstr "Tühista"
 
-msgid "Clean \"
-msgstr "Puhas \"
+msgid "Clean \\\\\\\\"
+msgstr "Puhas \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Tühjenda kohe"

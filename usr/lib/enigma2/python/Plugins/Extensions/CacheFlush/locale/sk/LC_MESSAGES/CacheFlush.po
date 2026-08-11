@@ -11,169 +11,124 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: plugin.py:38
-msgid "plugins"
-msgstr "pluginoch"
-
-#: plugin.py:38
-msgid "menu-system"
-msgstr "menu-systém"
-
-#: plugin.py:38
-msgid "extensions"
-msgstr "ponuka rozšírenie"
-
-#: plugin.py:38
-msgid "event info"
-msgstr "event info"
-
-#: plugin.py:44 ui.py:169 ui.py:198
-msgid "Setup CacheFlush"
-msgstr "Nastavenie CacheFlush"
-
-#: plugin.py:60
-msgid "Automatic cache flushing"
-msgstr "Automatické uvolňovanie medzipamäte"
-
-#: ui.py:37
-msgid "pagecache"
-msgstr ""
-
-#: ui.py:44 ui.py:52
-#, python-format
+#, fuzzy
 msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d minuta"
-msgstr[1] "%d minuty"
-msgstr[2] "%d minut"
+msgstr "%d minuta"
 
-#: ui.py:60
-#, python-format
+#, fuzzy
 msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "%d sekunda"
-msgstr[1] "%d sekundy"
-msgstr[2] "%d sekund"
+msgstr "%d sekunda"
 
-#: ui.py:64
-msgid "Default"
-msgstr "Predvolené"
-
-#: ui.py:178
-msgid "- - - -"
-msgstr ""
-
-#: ui.py:179 ui.py:459
-msgid "Cancel"
-msgstr "Zrušiť"
-
-#: ui.py:180 ui.py:461
-msgid "Clear Now"
-msgstr "Uvoľniť teraz"
-
-#: ui.py:181
-msgid "Info"
-msgstr "Info"
-
-#: ui.py:188
-#, python-format
-msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
-msgstr "Neuložená pamäť: %(current)s kB, (predvolené: %(default)s kB)"
-
-#: ui.py:202
-msgid "Enable CacheFlush"
-msgstr "Povoliť CacheFlush"
-
-#: ui.py:204
 msgid "Auto timeout"
 msgstr "Automatické spustenie"
 
-#: ui.py:205
-msgid "Time of info message"
-msgstr "Dĺžka zobrazenia info"
-
-#: ui.py:207
 msgid "Auto timeout (5-150min)"
 msgstr "Automatické spušťanie (5-150min)"
 
-#: ui.py:208
-msgid "Time of info message (1-10sec)"
-msgstr "Dĺžka zobrazenia info (1-10sec)"
+msgid "Automatic cache flushing"
+msgstr "Automatické uvolňovanie medzipamäte"
 
-#: ui.py:210
 msgid "Cache drop type"
 msgstr "Typ vyrovnávacej pamäte"
 
-#: ui.py:211
-msgid "Clean \"dirty\" cache too"
-msgstr "Vyčistite aj „špinavú“ vyrovnávaciu pamäť"
-
-#: ui.py:213
-msgid "Show info on screen"
-msgstr "Zobrazovať info na obrazovke"
-
-#: ui.py:216
-msgid "Uncached memory size"
-msgstr "Veľkosť neuloženej vyrovnávacej pamäte"
-
-#: ui.py:245
-msgid "Save"
-msgstr "Uložiť"
-
-#: ui.py:269
-msgid "Memory:"
-msgstr "Pamäť:"
-
-#: ui.py:269
-msgid "MB"
-msgstr "MB"
-
-#: ui.py:271
-msgid "Used:"
-msgstr "Použitá:"
-
-#: ui.py:273
-msgid "Free:"
-msgstr "Voľná:"
-
-#: ui.py:340
-msgid "Starting"
-msgstr "Štartuje"
-
-#: ui.py:359
-msgid "CacheFlush Status"
-msgstr "Stav CacheFlush"
-
-#: ui.py:365
-msgid "Started"
-msgstr "Spustené"
-
-#: ui.py:367
-msgid "Stopped"
-msgstr "Zastavené"
-
-#: ui.py:379
-msgid "Mem cleared"
-msgstr "Pamäť uvoľnená"
-
-#: ui.py:453
 msgid "CacheFlush Info"
 msgstr "CacheFlush Info"
 
-#: ui.py:460
+msgid "CacheFlush Info v.%s"
+msgstr ""
+
+msgid "CacheFlush Status"
+msgstr "Stav CacheFlush"
+
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#, fuzzy
+msgid "Clean \\\\\\\\"
+msgstr "Uvoľniť teraz"
+
+msgid "Clear Now"
+msgstr "Uvoľniť teraz"
+
+msgid "Default"
+msgstr "Predvolené"
+
+msgid "Enable CacheFlush"
+msgstr "Povoliť CacheFlush"
+
+msgid "Free:"
+msgstr "Voľná:"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Mem cleared"
+msgstr "Pamäť uvoľnená"
+
+msgid "Memory:"
+msgstr "Pamäť:"
+
 msgid "Refresh"
 msgstr "Obnoviť"
 
-#: ui.py:473
-#, python-format
-msgid "CacheFlush Info v.%s"
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "Setup CacheFlush"
+msgstr "Nastavenie CacheFlush"
+
+msgid "Show info on screen"
+msgstr "Zobrazovať info na obrazovke"
+
+msgid "Started"
+msgstr "Spustené"
+
+msgid "Starting"
+msgstr "Štartuje"
+
+msgid "Stopped"
+msgstr "Zastavené"
+
+msgid "Time of info message"
+msgstr "Dĺžka zobrazenia info"
+
+msgid "Time of info message (1-10sec)"
+msgstr "Dĺžka zobrazenia info (1-10sec)"
+
+msgid "Uncached memory size"
+msgstr "Veľkosť neuloženej vyrovnávacej pamäte"
+
+msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
+msgstr "Neuložená pamäť: %(current)s kB, (predvolené: %(default)s kB)"
+
+msgid "Used:"
+msgstr "Použitá:"
+
+msgid "event info"
+msgstr "event info"
+
+msgid "extensions"
+msgstr "ponuka rozšírenie"
+
+msgid "menu-system"
+msgstr "menu-systém"
+
+msgid "pagecache"
 msgstr ""
+
+msgid "plugins"
+msgstr "pluginoch"
+
+#~ msgid "Clean \\\"dirty\\\" cache too"
+#~ msgstr "Vyčistite aj „špinavú“ vyrovnávaciu pamäť"
 
 #~ msgid "Display plugin in"
 #~ msgstr "Zobrazovať plugin v"

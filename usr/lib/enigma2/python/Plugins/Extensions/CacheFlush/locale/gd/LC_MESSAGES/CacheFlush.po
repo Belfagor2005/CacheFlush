@@ -45,8 +45,8 @@ msgstr "Inbhe CacheFlush"
 msgid "Cancel"
 msgstr "Sguir dheth"
 
-msgid "Clean \"
-msgstr "Glan \"
+msgid "Clean \\\\\\\\"
+msgstr "Glan \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Glan a-nis"

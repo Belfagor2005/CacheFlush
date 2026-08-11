@@ -45,8 +45,8 @@ msgstr "Status CacheFlush"
 msgid "Cancel"
 msgstr "Otkazati"
 
-msgid "Clean \"
-msgstr "čisti \"
+msgid "Clean \\\\\\\\"
+msgstr "čisti \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Očisti sada"

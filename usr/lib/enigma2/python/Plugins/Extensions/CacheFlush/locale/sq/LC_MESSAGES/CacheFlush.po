@@ -45,8 +45,8 @@ msgstr "Statusi i CacheFlush"
 msgid "Cancel"
 msgstr "Anulo"
 
-msgid "Clean \"
-msgstr "Pastro \"
+msgid "Clean \\\\\\\\"
+msgstr "Pastro \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Pastro Tani"

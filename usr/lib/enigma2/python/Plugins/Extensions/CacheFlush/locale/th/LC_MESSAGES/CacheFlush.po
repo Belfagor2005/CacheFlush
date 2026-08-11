@@ -45,8 +45,8 @@ msgstr "สถานะแคชฟลัช"
 msgid "Cancel"
 msgstr "ยกเลิก"
 
-msgid "Clean \"
-msgstr "ทำความสะอาด \"
+msgid "Clean \\\\\\\\"
+msgstr "ทำความสะอาด \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "เคลียร์เลย"

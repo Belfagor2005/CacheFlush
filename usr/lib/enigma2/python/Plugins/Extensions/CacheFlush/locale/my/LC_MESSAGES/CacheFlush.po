@@ -45,7 +45,7 @@ msgstr "CacheFlush အခြေအနေ"
 msgid "Cancel"
 msgstr "မလုပ်တော့"
 
-msgid "Clean \"
+msgid "Clean \\\\\\\\"
 msgstr "သန့်ရှင်း"
 
 msgid "Clear Now"

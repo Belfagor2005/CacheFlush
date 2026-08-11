@@ -45,8 +45,8 @@ msgstr "CacheFlush स्थिति"
 msgid "Cancel"
 msgstr "रद्द गर्नुहोस्"
 
-msgid "Clean \"
-msgstr "सफा \"
+msgid "Clean \\\\\\\\"
+msgstr "सफा \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "अब खाली गर्नुहोस्"

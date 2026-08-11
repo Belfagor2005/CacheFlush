@@ -45,8 +45,8 @@ msgstr "Status CacheFlush"
 msgid "Cancel"
 msgstr "Membatalkan"
 
-msgid "Clean \"
-msgstr "Membersihkan \"
+msgid "Clean \\\\\\\\"
+msgstr "Membersihkan \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Hapus Sekarang"

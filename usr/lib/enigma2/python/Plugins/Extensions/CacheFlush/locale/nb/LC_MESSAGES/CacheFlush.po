@@ -45,8 +45,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Kansellere"
 
-msgid "Clean \"
-msgstr "Rengjør \"
+msgid "Clean \\\\\\\\"
+msgstr "Rengjør \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Fjern nå"

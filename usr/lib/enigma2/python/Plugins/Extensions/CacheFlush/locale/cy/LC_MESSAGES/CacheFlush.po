@@ -45,8 +45,8 @@ msgstr "Statws CacheFlush"
 msgid "Cancel"
 msgstr "Canslo"
 
-msgid "Clean \"
-msgstr "Glan \"
+msgid "Clean \\\\\\\\"
+msgstr "Glan \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Cliriwch Nawr"

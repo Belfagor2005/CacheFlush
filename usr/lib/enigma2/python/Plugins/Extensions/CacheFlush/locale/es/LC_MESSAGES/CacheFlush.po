@@ -45,8 +45,8 @@ msgstr "Estado de descarga de caché"
 msgid "Cancel"
 msgstr "Cancelar"
 
-msgid "Clean \"
-msgstr "Limpio \"
+msgid "Clean \\\\\\\\"
+msgstr "Limpio \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Limpiar ahora"

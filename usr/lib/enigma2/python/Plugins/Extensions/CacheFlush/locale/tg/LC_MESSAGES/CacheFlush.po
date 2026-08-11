@@ -45,8 +45,8 @@ msgstr "Ҳолати CacheFlush"
 msgid "Cancel"
 msgstr "Бекор кардан"
 
-msgid "Clean \"
-msgstr "Тоза \"
+msgid "Clean \\\\\\\\"
+msgstr "Тоза \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Ҳоло тоза кунед"

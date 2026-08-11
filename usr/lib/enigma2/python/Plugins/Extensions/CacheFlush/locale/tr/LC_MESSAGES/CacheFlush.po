@@ -45,8 +45,8 @@ msgstr "Önbellek Temizleme Durumu"
 msgid "Cancel"
 msgstr "İptal etmek"
 
-msgid "Clean \"
-msgstr "Temiz \"
+msgid "Clean \\\\\\\\"
+msgstr "Temiz \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Şimdi Temizle"

@@ -45,8 +45,8 @@ msgstr "CacheFlush સ્થિતિ"
 msgid "Cancel"
 msgstr "રદ કરો"
 
-msgid "Clean \"
-msgstr "સ્વચ્છ \"
+msgid "Clean \\\\\\\\"
+msgstr "સ્વચ્છ \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "હવે સાફ કરો"
@@ -118,7 +118,7 @@ msgid "menu-system"
 msgstr "મેનુ-સિસ્ટમ"
 
 msgid "pagecache"
-msgstr ""
+msgstr "પેજકેશ"
 
 msgid "plugins"
 msgstr "પ્લગઈન્સ"

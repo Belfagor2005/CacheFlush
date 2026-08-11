@@ -45,8 +45,8 @@ msgstr "ਕੈਸ਼ਫਲਸ਼ ਸਥਿਤੀ"
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-msgid "Clean \"
-msgstr "ਸਾਫ਼\"
+msgid "Clean \\\\\\\\"
+msgstr "ਸਾਫ਼\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ਹੁਣੇ ਸਾਫ਼ ਕਰੋ"

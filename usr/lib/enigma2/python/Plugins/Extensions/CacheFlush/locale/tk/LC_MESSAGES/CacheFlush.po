@@ -45,8 +45,8 @@ msgstr "CacheFlush ýagdaýy"
 msgid "Cancel"
 msgstr "Elatyr"
 
-msgid "Clean \"
-msgstr "Arassa \"
+msgid "Clean \\\\\\\\"
+msgstr "Arassa \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Indi arassala"

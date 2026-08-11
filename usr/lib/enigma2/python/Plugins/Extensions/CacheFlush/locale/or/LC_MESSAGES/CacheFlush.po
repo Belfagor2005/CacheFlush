@@ -45,8 +45,8 @@ msgstr "କ୍ୟାଚ୍ ଫ୍ଲସ୍ ସ୍ଥିତି |"
 msgid "Cancel"
 msgstr "ବାତିଲ୍ କରନ୍ତୁ |"
 
-msgid "Clean \"
-msgstr "ସଫା \"
+msgid "Clean \\\\\\\\"
+msgstr "ସଫା \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ବର୍ତ୍ତମାନ ସଫା କର |"

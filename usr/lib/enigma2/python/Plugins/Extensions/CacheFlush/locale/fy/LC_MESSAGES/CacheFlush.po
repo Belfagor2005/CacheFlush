@@ -45,8 +45,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Ofbrekke"
 
-msgid "Clean \"
-msgstr "skjin \"
+msgid "Clean \\\\\\\\"
+msgstr "skjin \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Wiskje no"

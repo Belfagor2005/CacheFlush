@@ -45,8 +45,8 @@ msgstr "حالة ذاكرة التخزين المؤقت"
 msgid "Cancel"
 msgstr "يلغي"
 
-msgid "Clean \"
-msgstr "ينظف \"
+msgid "Clean \\\\\\\\"
+msgstr "ينظف \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "امسح الآن"

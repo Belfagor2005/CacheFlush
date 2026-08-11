@@ -10,154 +10,124 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: ui.py\n"
 
-#: ui.py:37
-msgid "pagecache"
-msgstr "pagecache"
-
-#: ui.py:44 ui.py:52
-#, python-format
+#, fuzzy
 msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d minutė"
-msgstr[1] "%d minutės"
-msgstr[2] "%d minučių"
+msgstr "%d minutė"
 
-#: ui.py:60
-#, python-format
+#, fuzzy
 msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "%d sekundė"
-msgstr[1] "%d sekundės"
-msgstr[2] "%d sekundžių"
+msgstr "%d sekundė"
 
-#: ui.py:64
-msgid "Default"
-msgstr "Numatytasis"
-
-#: ui.py:169 ui.py:198
-msgid "Setup CacheFlush"
-msgstr "CacheFlush sąranka"
-
-#: ui.py:178
-msgid "- - - -"
-msgstr ""
-
-#: ui.py:179 ui.py:459
-msgid "Cancel"
-msgstr "Atšaukti"
-
-#: ui.py:180 ui.py:461
-msgid "Clear Now"
-msgstr "Valyti dabar"
-
-#: ui.py:181
-msgid "Info"
-msgstr "Informacija"
-
-#: ui.py:188
-#, python-format
-msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
-msgstr ""
-"Netalpyklinė atmintis: %(current)s kB, (numatytoji reikšmė: %(default)s "
-"kB)"
-
-#: ui.py:202
-msgid "Enable CacheFlush"
-msgstr "Įjungti CacheFlush"
-
-#: ui.py:204
 msgid "Auto timeout"
 msgstr "Autopaleidimas už"
 
-#: ui.py:205
-msgid "Time of info message"
-msgstr "Pranešimo rodymo laikas"
-
-#: ui.py:207
 msgid "Auto timeout (5-150min)"
 msgstr "Autopaleidimas už (5-150 min.)"
 
-#: ui.py:208
-msgid "Time of info message (1-10sec)"
-msgstr "Pranešimo rodymo laikas (1-10sec)"
+msgid "Automatic cache flushing"
+msgstr "Automatinis talpyklos valymas"
 
-#: ui.py:210
 msgid "Cache drop type"
 msgstr "Talpyklos valymo būdas"
 
-#: ui.py:211
-msgid "Clean \"dirty\" cache too"
-msgstr "Valyti ir \"nešvarią\" talpyklą"
-
-#: ui.py:213
-msgid "Show info on screen"
-msgstr "Rodyti informaciją ekrane"
-
-#: ui.py:216
-msgid "Uncached memory size"
-msgstr "Pagrindinės stminties dydis"
-
-#: ui.py:245
-msgid "Save"
-msgstr "Išsaugoti"
-
-#: ui.py:269
-msgid "Memory:"
-msgstr "Atmintis:"
-
-#: ui.py:269
-msgid "MB"
-msgstr "MB"
-
-#: ui.py:271
-msgid "Used:"
-msgstr "Naudojama:"
-
-#: ui.py:273
-msgid "Free:"
-msgstr "Laisva:"
-
-#: ui.py:340
-msgid "Starting"
-msgstr "Pradedama"
-
-#: ui.py:359
-msgid "CacheFlush Status"
-msgstr "CacheFlush būsena"
-
-#: ui.py:365
-msgid "Started"
-msgstr "Pradžia"
-
-#: ui.py:367
-msgid "Stopped"
-msgstr "Nutraukta"
-
-#: ui.py:379
-msgid "Mem cleared"
-msgstr "Atmintis išvalyta"
-
-#: ui.py:453
 msgid "CacheFlush Info"
 msgstr "CacheFlush informacija"
 
-#: ui.py:460
+msgid "CacheFlush Info v.%s"
+msgstr "„CacheFlush“ informacija v.%s"
+
+msgid "CacheFlush Status"
+msgstr "CacheFlush būsena"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#, fuzzy
+msgid "Clean \\\\\\\\"
+msgstr "Valyti dabar"
+
+msgid "Clear Now"
+msgstr "Valyti dabar"
+
+msgid "Default"
+msgstr "Numatytasis"
+
+msgid "Enable CacheFlush"
+msgstr "Įjungti CacheFlush"
+
+msgid "Free:"
+msgstr "Laisva:"
+
+msgid "Info"
+msgstr "Informacija"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Mem cleared"
+msgstr "Atmintis išvalyta"
+
+msgid "Memory:"
+msgstr "Atmintis:"
+
 msgid "Refresh"
 msgstr "Atnaujinti"
 
-#: ui.py:473
-#, python-format
-msgid "CacheFlush Info v.%s"
-msgstr ""
+msgid "Save"
+msgstr "Išsaugoti"
 
-#~ msgid "Automatic cache flushing"
-#~ msgstr "Automatinis talpyklos valymas"
+msgid "Setup CacheFlush"
+msgstr "CacheFlush sąranka"
+
+msgid "Show info on screen"
+msgstr "Rodyti informaciją ekrane"
+
+msgid "Started"
+msgstr "Pradžia"
+
+msgid "Starting"
+msgstr "Pradedama"
+
+msgid "Stopped"
+msgstr "Nutraukta"
+
+msgid "Time of info message"
+msgstr "Pranešimo rodymo laikas"
+
+msgid "Time of info message (1-10sec)"
+msgstr "Pranešimo rodymo laikas (1-10sec)"
+
+msgid "Uncached memory size"
+msgstr "Pagrindinės stminties dydis"
+
+msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
+msgstr "Netalpyklinė atmintis: %(current)s kB, (numatytoji reikšmė: %(default)s kB)"
+
+msgid "Used:"
+msgstr "Naudojama:"
+
+msgid "event info"
+msgstr "įvykių meniu"
+
+msgid "extensions"
+msgstr "plėtiniuose"
+
+msgid "menu-system"
+msgstr "meniu - sistema"
+
+msgid "pagecache"
+msgstr "pagecache"
+
+msgid "plugins"
+msgstr "įskiepiuose"
+
+#~ msgid "Clean \\\"dirty\\\" cache too"
+#~ msgstr "Valyti ir \\\"nešvarią\\\" talpyklą"
 
 #~ msgid "Display plugin in"
 #~ msgstr "Rodyti įskiepį"
@@ -165,17 +135,5 @@ msgstr ""
 #~ msgid "dentries and inodes"
 #~ msgstr "dentry ir inode"
 
-#~ msgid "event info"
-#~ msgstr "įvykių meniu"
-
-#~ msgid "extensions"
-#~ msgstr "plėtiniuose"
-
-#~ msgid "menu-system"
-#~ msgstr "meniu - sistema"
-
 #~ msgid "pagecache, dentries and inodes"
 #~ msgstr "pagecache, dentry ir inode"
-
-#~ msgid "plugins"
-#~ msgstr "įskiepiuose"

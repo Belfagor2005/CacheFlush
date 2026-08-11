@@ -45,8 +45,8 @@ msgstr "وضعیت CacheFlush"
 msgid "Cancel"
 msgstr "لغو کنید"
 
-msgid "Clean \"
-msgstr "پاک \"
+msgid "Clean \\\\\\\\"
+msgstr "پاک \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "اکنون پاک کنید"

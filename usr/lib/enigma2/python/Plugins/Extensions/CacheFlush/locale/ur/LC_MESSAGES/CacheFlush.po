@@ -45,8 +45,8 @@ msgstr "کیش فلش اسٹیٹس"
 msgid "Cancel"
 msgstr "منسوخ کریں۔"
 
-msgid "Clean \"
-msgstr "صاف \"
+msgid "Clean \\\\\\\\"
+msgstr "صاف \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ابھی صاف کریں۔"

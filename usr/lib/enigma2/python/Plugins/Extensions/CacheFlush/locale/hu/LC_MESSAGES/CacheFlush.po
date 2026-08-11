@@ -45,8 +45,8 @@ msgstr "CacheFlush állapota"
 msgid "Cancel"
 msgstr "Mégse"
 
-msgid "Clean \"
-msgstr "Tiszta \"
+msgid "Clean \\\\\\\\"
+msgstr "Tiszta \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Tiszta most"

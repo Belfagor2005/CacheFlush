@@ -45,8 +45,8 @@ msgstr "कॅशेफ्लश स्थिती"
 msgid "Cancel"
 msgstr "रद्द करा"
 
-msgid "Clean \"
-msgstr "स्वच्छ \"
+msgid "Clean \\\\\\\\"
+msgstr "स्वच्छ \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "आता साफ करा"

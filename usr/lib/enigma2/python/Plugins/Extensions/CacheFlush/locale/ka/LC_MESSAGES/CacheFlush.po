@@ -37,7 +37,7 @@ msgid "CacheFlush Info"
 msgstr "CacheFlush ინფორმაცია"
 
 msgid "CacheFlush Info v.%s"
-msgstr ""
+msgstr "CacheFlush ინფორმაცია v.%s"
 
 msgid "CacheFlush Status"
 msgstr "CacheFlush სტატუსი"
@@ -45,8 +45,8 @@ msgstr "CacheFlush სტატუსი"
 msgid "Cancel"
 msgstr "გაუქმება"
 
-msgid "Clean \"
-msgstr "სუფთა \"
+msgid "Clean \\\\\\\\"
+msgstr "სუფთა \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "გასუფთავება ახლა"

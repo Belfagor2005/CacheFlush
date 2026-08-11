@@ -45,8 +45,8 @@ msgstr "Estat de CacheFlush"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-msgid "Clean \"
-msgstr "Neteja \"
+msgid "Clean \\\\\\\\"
+msgstr "Neteja \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Esborra ara"

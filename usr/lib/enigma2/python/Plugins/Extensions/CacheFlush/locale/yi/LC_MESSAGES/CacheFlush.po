@@ -45,8 +45,8 @@ msgstr "קאַטשעפלוש סטאַטוס"
 msgid "Cancel"
 msgstr "באָטל מאַכן"
 
-msgid "Clean \"
-msgstr "ריין \"
+msgid "Clean \\\\\\\\"
+msgstr "ריין \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "קלאָר איצט"

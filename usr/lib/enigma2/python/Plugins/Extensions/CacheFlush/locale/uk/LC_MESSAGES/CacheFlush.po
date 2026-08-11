@@ -10,170 +10,124 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: plugin.py:38
-msgid "plugins"
-msgstr "плагінах"
-
-#: plugin.py:38
-msgid "menu-system"
-msgstr "меню-система"
-
-#: plugin.py:38
-msgid "extensions"
-msgstr "доповненнях"
-
-#: plugin.py:38
-msgid "event info"
-msgstr "меню подій"
-
-#: plugin.py:44 ui.py:169 ui.py:198
-msgid "Setup CacheFlush"
-msgstr "Налаштування КешФлеш"
-
-#: plugin.py:60
-msgid "Automatic cache flushing"
-msgstr "Автоматична очистка кеша"
-
-#: ui.py:37
-msgid "pagecache"
-msgstr "кеш сторінок"
-
-#: ui.py:44 ui.py:52
-#, python-format
+#, fuzzy
 msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d хвилина"
-msgstr[1] "%d минуты"
-msgstr[2] "%d минут"
+msgstr "%d хвилина"
 
-#: ui.py:60
-#, python-format
+#, fuzzy
 msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "%d секунда"
-msgstr[1] "%d секунды"
-msgstr[2] "%d секунд"
+msgstr "%d секунда"
 
-#: ui.py:64
-msgid "Default"
-msgstr "За замовчуванням"
-
-#: ui.py:178
-msgid "- - - -"
-msgstr ""
-
-#: ui.py:179 ui.py:459
-msgid "Cancel"
-msgstr "Вихід"
-
-#: ui.py:180 ui.py:461
-msgid "Clear Now"
-msgstr "Очистити"
-
-#: ui.py:181
-msgid "Info"
-msgstr "Інфо"
-
-#: ui.py:188
-#, python-format
-msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
-msgstr ""
-"Некешована пам'ять: %(current)s КБ, (за замовчуванням: %(default)s КБ)"
-
-#: ui.py:202
-msgid "Enable CacheFlush"
-msgstr "Включити КешФлеш"
-
-#: ui.py:204
 msgid "Auto timeout"
 msgstr "Авто запуск через"
 
-#: ui.py:205
-msgid "Time of info message"
-msgstr "Таймаут повідомлення"
-
-#: ui.py:207
 msgid "Auto timeout (5-150min)"
 msgstr "Авто запуск (5-150хв)"
 
-#: ui.py:208
-msgid "Time of info message (1-10sec)"
-msgstr "Таймаут повідомлення (1-10 сек)"
+msgid "Automatic cache flushing"
+msgstr "Автоматична очистка кеша"
 
-#: ui.py:210
 msgid "Cache drop type"
 msgstr "Тип очистки кеша"
 
-#: ui.py:211
-msgid "Clean \"dirty\" cache too"
-msgstr "Очистити теж \"брудний\" кеш"
-
-#: ui.py:213
-msgid "Show info on screen"
-msgstr "Показати інфо на екрані"
-
-#: ui.py:216
-msgid "Uncached memory size"
-msgstr "Об'єм пам'яті без кеша"
-
-#: ui.py:245
-msgid "Save"
-msgstr "Зберегти"
-
-#: ui.py:269
-msgid "Memory:"
-msgstr "Пам'ять:"
-
-#: ui.py:269
-msgid "MB"
-msgstr "MB"
-
-#: ui.py:271
-msgid "Used:"
-msgstr "Занято:"
-
-#: ui.py:273
-msgid "Free:"
-msgstr "Вільно:"
-
-#: ui.py:340
-msgid "Starting"
-msgstr "Запущено"
-
-#: ui.py:359
-msgid "CacheFlush Status"
-msgstr "Статус КешФлеш"
-
-#: ui.py:365
-msgid "Started"
-msgstr "Старт"
-
-#: ui.py:367
-msgid "Stopped"
-msgstr "Зупинено"
-
-#: ui.py:379
-msgid "Mem cleared"
-msgstr "Пам'ять очищена"
-
-#: ui.py:453
 msgid "CacheFlush Info"
 msgstr "КешФлеш інфо"
 
-#: ui.py:460
+msgid "CacheFlush Info v.%s"
+msgstr "Інформація CacheFlush v.%s"
+
+msgid "CacheFlush Status"
+msgstr "Статус КешФлеш"
+
+msgid "Cancel"
+msgstr "Вихід"
+
+#, fuzzy
+msgid "Clean \\\\\\\\"
+msgstr "Очистити"
+
+msgid "Clear Now"
+msgstr "Очистити"
+
+msgid "Default"
+msgstr "За замовчуванням"
+
+msgid "Enable CacheFlush"
+msgstr "Включити КешФлеш"
+
+msgid "Free:"
+msgstr "Вільно:"
+
+msgid "Info"
+msgstr "Інфо"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Mem cleared"
+msgstr "Пам'ять очищена"
+
+msgid "Memory:"
+msgstr "Пам'ять:"
+
 msgid "Refresh"
 msgstr "Оновити"
 
-#: ui.py:473
-#, python-format
-msgid "CacheFlush Info v.%s"
-msgstr ""
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Setup CacheFlush"
+msgstr "Налаштування КешФлеш"
+
+msgid "Show info on screen"
+msgstr "Показати інфо на екрані"
+
+msgid "Started"
+msgstr "Старт"
+
+msgid "Starting"
+msgstr "Запущено"
+
+msgid "Stopped"
+msgstr "Зупинено"
+
+msgid "Time of info message"
+msgstr "Таймаут повідомлення"
+
+msgid "Time of info message (1-10sec)"
+msgstr "Таймаут повідомлення (1-10 сек)"
+
+msgid "Uncached memory size"
+msgstr "Об'єм пам'яті без кеша"
+
+msgid "Uncached memory: %(current)s kB,   ( default: %(default)s kB )"
+msgstr "Некешована пам'ять: %(current)s КБ, (за замовчуванням: %(default)s КБ)"
+
+msgid "Used:"
+msgstr "Занято:"
+
+msgid "event info"
+msgstr "меню подій"
+
+msgid "extensions"
+msgstr "доповненнях"
+
+msgid "menu-system"
+msgstr "меню-система"
+
+msgid "pagecache"
+msgstr "кеш сторінок"
+
+msgid "plugins"
+msgstr "плагінах"
+
+#~ msgid "Clean \\\"dirty\\\" cache too"
+#~ msgstr "Очистити теж \\\"брудний\\\" кеш"
 
 #~ msgid "Display plugin in"
 #~ msgstr "Показати плагін в "

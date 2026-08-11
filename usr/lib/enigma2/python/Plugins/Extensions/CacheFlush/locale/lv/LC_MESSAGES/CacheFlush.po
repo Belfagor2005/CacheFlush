@@ -45,8 +45,8 @@ msgstr "CacheFlush statuss"
 msgid "Cancel"
 msgstr "Atcelt"
 
-msgid "Clean \"
-msgstr "Tīrs \"
+msgid "Clean \\\\\\\\"
+msgstr "Tīrs \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Notīrīt tūlīt"

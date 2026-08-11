@@ -45,11 +45,11 @@ msgstr "Състояние на CacheFlush"
 msgid "Cancel"
 msgstr "Отказ"
 
-msgid "Clean \"
-msgstr "чисто \"
+msgid "Clean \\\\\\\\"
+msgstr "чисто \\\\\\\\"
 
 msgid "Clear Now"
-msgstr ""
+msgstr "Изчисти сега"
 
 msgid "Default"
 msgstr "По подразбиране"

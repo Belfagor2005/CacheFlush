@@ -45,8 +45,8 @@ msgstr "キャッシュフラッシュステータス"
 msgid "Cancel"
 msgstr "キャンセル"
 
-msgid "Clean \"
-msgstr "クリーン \"
+msgid "Clean \\\\\\\\"
+msgstr "クリーン \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "今すぐクリア"

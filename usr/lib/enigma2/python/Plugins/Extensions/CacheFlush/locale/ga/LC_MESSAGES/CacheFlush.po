@@ -45,8 +45,8 @@ msgstr "Stádas CacheFlush"
 msgid "Cancel"
 msgstr "Cealaigh"
 
-msgid "Clean \"
-msgstr "Glan \"
+msgid "Clean \\\\\\\\"
+msgstr "Glan \\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Glan Anois"
