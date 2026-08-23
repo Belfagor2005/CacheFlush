@@ -45,8 +45,9 @@ msgstr "Κατάσταση CacheFlush"
 msgid "Cancel"
 msgstr "Ματαίωση"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Καθαρίστε \\\\\\\\"
+msgstr "Καθαρίστε \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Καθαρίστε τώρα"
@@ -122,4 +123,3 @@ msgstr "προσωρινή μνήμη σελίδας"
 
 msgid "plugins"
 msgstr "πρόσθετα"
-

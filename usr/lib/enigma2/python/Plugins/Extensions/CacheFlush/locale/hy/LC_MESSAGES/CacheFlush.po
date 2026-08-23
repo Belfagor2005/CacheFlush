@@ -45,8 +45,9 @@ msgstr "CacheFlush կարգավիճակը"
 msgid "Cancel"
 msgstr "Չեղարկել"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Մաքուր \\\\\\\\"
+msgstr "Մաքուր \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Մաքրել հիմա"
@@ -122,4 +123,3 @@ msgstr "էջի քեշ"
 
 msgid "plugins"
 msgstr "պլագիններ"
-

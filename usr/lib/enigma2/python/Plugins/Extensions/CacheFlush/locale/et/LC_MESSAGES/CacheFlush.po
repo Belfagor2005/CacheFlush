@@ -45,8 +45,9 @@ msgstr "CacheFlushi olek"
 msgid "Cancel"
 msgstr "Tühista"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Puhas \\\\\\\\"
+msgstr "Puhas \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Tühjenda kohe"
@@ -122,4 +123,3 @@ msgstr "lehe vahemälu"
 
 msgid "plugins"
 msgstr "pistikprogrammid"
-

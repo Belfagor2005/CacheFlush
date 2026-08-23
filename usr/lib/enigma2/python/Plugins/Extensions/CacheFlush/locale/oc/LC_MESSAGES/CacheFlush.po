@@ -45,8 +45,9 @@ msgstr "Estat de CacheFlush"
 msgid "Cancel"
 msgstr "Anullar"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Net \\\\\\\\"
+msgstr "Net \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Escafar ara"
@@ -122,4 +123,3 @@ msgstr "cache de paginas"
 
 msgid "plugins"
 msgstr "ensambladors"
-

@@ -45,8 +45,9 @@ msgstr "Estat de CacheFlush"
 msgid "Cancel"
 msgstr "Cancel·la"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Neteja \\\\\\\\"
+msgstr "Neteja \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Esborra ara"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "connectors"
-

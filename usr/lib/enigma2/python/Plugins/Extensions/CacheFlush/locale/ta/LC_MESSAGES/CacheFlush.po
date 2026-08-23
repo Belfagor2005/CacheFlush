@@ -45,8 +45,9 @@ msgstr "CacheFlush நிலை"
 msgid "Cancel"
 msgstr "ரத்து செய்"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "சுத்தமான \\\\\\\\"
+msgstr "சுத்தமான \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "இப்போது அழி"
@@ -122,4 +123,3 @@ msgstr "பக்க கேச்"
 
 msgid "plugins"
 msgstr "செருகுநிரல்கள்"
-

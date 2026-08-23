@@ -45,8 +45,9 @@ msgstr "कॅशेफ्लश स्थिती"
 msgid "Cancel"
 msgstr "रद्द करा"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "स्वच्छ \\\\\\\\"
+msgstr "स्वच्छ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "आता साफ करा"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "प्लगइन"
-

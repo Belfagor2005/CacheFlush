@@ -45,8 +45,9 @@ msgstr ""
 msgid "Cancel"
 msgstr "Ofbrekke"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "skjin \\\\\\\\"
+msgstr "skjin \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Wiskje no"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr ""
-

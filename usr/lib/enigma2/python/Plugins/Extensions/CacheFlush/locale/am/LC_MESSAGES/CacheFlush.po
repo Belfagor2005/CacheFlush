@@ -45,8 +45,9 @@ msgstr "CacheFlush ሁኔታ"
 msgid "Cancel"
 msgstr "ሰርዝ"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "አጽዳ \\\\\\\\"
+msgstr "አጽዳ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "አሁን አጽዳ"
@@ -122,4 +123,3 @@ msgstr "ገጽ መሸጎጫ"
 
 msgid "plugins"
 msgstr "ተሰኪዎች"
-

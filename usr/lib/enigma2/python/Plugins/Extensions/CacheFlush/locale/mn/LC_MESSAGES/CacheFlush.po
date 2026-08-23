@@ -45,8 +45,9 @@ msgstr "CacheFlush статус"
 msgid "Cancel"
 msgstr "Цуцлах"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Цэвэр \\\\\\\\"
+msgstr "Цэвэр \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Одоо арилгах"
@@ -122,4 +123,3 @@ msgstr "хуудасны кэш"
 
 msgid "plugins"
 msgstr "залгаасууд"
-

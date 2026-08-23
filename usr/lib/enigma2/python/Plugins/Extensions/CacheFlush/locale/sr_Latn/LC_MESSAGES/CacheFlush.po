@@ -45,8 +45,9 @@ msgstr "ЦацхеФлусх Статус"
 msgid "Cancel"
 msgstr "Откажи"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Чисти \\\\\\\\"
+msgstr "Чисти \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Обриши одмах"
@@ -122,4 +123,3 @@ msgstr "пагецацхе"
 
 msgid "plugins"
 msgstr "додаци"
-

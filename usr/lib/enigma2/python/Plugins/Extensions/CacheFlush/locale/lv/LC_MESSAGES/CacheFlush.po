@@ -45,8 +45,9 @@ msgstr "CacheFlush statuss"
 msgid "Cancel"
 msgstr "Atcelt"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Tīrs \\\\\\\\"
+msgstr "Tīrs \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Notīrīt tūlīt"
@@ -122,4 +123,3 @@ msgstr "lapas kešatmiņa"
 
 msgid "plugins"
 msgstr "spraudņi"
-

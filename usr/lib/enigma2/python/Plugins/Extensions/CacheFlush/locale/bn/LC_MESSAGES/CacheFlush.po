@@ -45,8 +45,9 @@ msgstr "ক্যাশফ্লাশ স্ট্যাটাস"
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "পরিষ্কার \\\\\\\\"
+msgstr "পরিষ্কার \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "এখন সাফ করুন"
@@ -122,4 +123,3 @@ msgstr "পেজক্যাশে"
 
 msgid "plugins"
 msgstr "প্লাগইন"
-

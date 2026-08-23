@@ -45,8 +45,9 @@ msgstr ""
 msgid "Cancel"
 msgstr "Otkaži"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Očisti \\\\\\\\"
+msgstr "Očisti \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Obriši odmah"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "dodaci"
-

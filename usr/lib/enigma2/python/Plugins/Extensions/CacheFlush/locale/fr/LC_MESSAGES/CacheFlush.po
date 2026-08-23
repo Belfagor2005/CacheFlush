@@ -45,8 +45,9 @@ msgstr "Statut de CacheFlush"
 msgid "Cancel"
 msgstr "Annuler"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Faire le ménage \\\\\\\\"
+msgstr "Faire le ménage \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Effacer maintenant"
@@ -122,4 +123,3 @@ msgstr "cache de pages"
 
 msgid "plugins"
 msgstr ""
-

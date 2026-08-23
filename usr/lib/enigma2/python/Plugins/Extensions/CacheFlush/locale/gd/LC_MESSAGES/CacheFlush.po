@@ -45,8 +45,9 @@ msgstr "Inbhe CacheFlush"
 msgid "Cancel"
 msgstr "Sguir dheth"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Glan \\\\\\\\"
+msgstr "Glan \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Glan a-nis"
@@ -122,4 +123,3 @@ msgstr "duilleagcache"
 
 msgid "plugins"
 msgstr "plugain"
-

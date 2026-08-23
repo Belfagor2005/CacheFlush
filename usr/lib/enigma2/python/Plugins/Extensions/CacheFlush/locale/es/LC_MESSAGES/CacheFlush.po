@@ -45,8 +45,9 @@ msgstr "Estado de descarga de caché"
 msgid "Cancel"
 msgstr "Cancelar"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Limpio \\\\\\\\"
+msgstr "Limpio \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Limpiar ahora"
@@ -122,4 +123,3 @@ msgstr "caché de página"
 
 msgid "plugins"
 msgstr "complementos"
-

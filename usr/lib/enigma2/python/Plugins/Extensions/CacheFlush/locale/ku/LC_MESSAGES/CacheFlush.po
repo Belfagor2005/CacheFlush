@@ -45,8 +45,9 @@ msgstr "Rewşa CacheFlush"
 msgid "Cancel"
 msgstr "Bişûndekirin"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Paqij \\\\\\\\"
+msgstr "Paqij \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Niha paqij bike"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "pêvekên"
-

@@ -45,8 +45,9 @@ msgstr "Status CacheFlush"
 msgid "Cancel"
 msgstr "Membatalkan"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Membersihkan \\\\\\\\"
+msgstr "Membersihkan \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Hapus Sekarang"
@@ -122,4 +123,3 @@ msgstr "cache halaman"
 
 msgid "plugins"
 msgstr "plugin"
-

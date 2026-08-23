@@ -45,8 +45,9 @@ msgstr "CacheFlush egoera"
 msgid "Cancel"
 msgstr "Utzi"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Garbitu \\\\\\\\"
+msgstr "Garbitu \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Garbitu orain"
@@ -122,4 +123,3 @@ msgstr "orrialde-cachea"
 
 msgid "plugins"
 msgstr "pluginak"
-

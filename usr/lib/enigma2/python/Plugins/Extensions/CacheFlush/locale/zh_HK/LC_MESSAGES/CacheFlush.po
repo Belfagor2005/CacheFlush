@@ -45,8 +45,9 @@ msgstr "快取刷新狀態"
 msgid "Cancel"
 msgstr "取消"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "乾淨的 \\\\\\\\"
+msgstr "乾淨的 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "立即清除"
@@ -122,4 +123,3 @@ msgstr "頁面緩存"
 
 msgid "plugins"
 msgstr "外掛"
-

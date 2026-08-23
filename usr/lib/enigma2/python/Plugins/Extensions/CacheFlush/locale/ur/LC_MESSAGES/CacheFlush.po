@@ -45,8 +45,9 @@ msgstr "کیش فلش اسٹیٹس"
 msgid "Cancel"
 msgstr "منسوخ کریں۔"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "صاف \\\\\\\\"
+msgstr "صاف \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ابھی صاف کریں۔"
@@ -122,4 +123,3 @@ msgstr "صفحہ کیشے"
 
 msgid "plugins"
 msgstr "پلگ ان"
-

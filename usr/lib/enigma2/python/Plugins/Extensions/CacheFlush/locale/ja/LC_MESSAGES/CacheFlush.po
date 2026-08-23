@@ -45,8 +45,9 @@ msgstr "キャッシュフラッシュステータス"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "クリーン \\\\\\\\"
+msgstr "クリーン \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "今すぐクリア"
@@ -122,4 +123,3 @@ msgstr "ページキャッシュ"
 
 msgid "plugins"
 msgstr "プラグイン"
-

@@ -45,8 +45,9 @@ msgstr "Stanje CacheFlush"
 msgid "Cancel"
 msgstr "Prekliči"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Čisto \\\\\\\\"
+msgstr "Čisto \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Počisti zdaj"
@@ -122,4 +123,3 @@ msgstr "predpomnilnik strani"
 
 msgid "plugins"
 msgstr "vtičniki"
-
