@@ -45,8 +45,9 @@ msgstr "Stádas CacheFlush"
 msgid "Cancel"
 msgstr "Cealaigh"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Glan \\\\\\\\"
+msgstr "Glan \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Glan Anois"
@@ -122,4 +123,3 @@ msgstr "leathanachcache"
 
 msgid "plugins"
 msgstr "forlíontáin"
-

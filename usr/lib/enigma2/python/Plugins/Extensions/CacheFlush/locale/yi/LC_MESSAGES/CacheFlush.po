@@ -45,8 +45,9 @@ msgstr "קאַטשעפלוש סטאַטוס"
 msgid "Cancel"
 msgstr "באָטל מאַכן"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "ריין \\\\\\\\"
+msgstr "ריין \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "קלאָר איצט"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "פּלוגינס"
-

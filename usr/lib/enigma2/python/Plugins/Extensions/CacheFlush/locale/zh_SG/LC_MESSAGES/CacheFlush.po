@@ -45,8 +45,9 @@ msgstr "缓存刷新状态"
 msgid "Cancel"
 msgstr "取消"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "干净的 \\\\\\\\"
+msgstr "干净的 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "立即清除"
@@ -122,4 +123,3 @@ msgstr "页面缓存"
 
 msgid "plugins"
 msgstr "插件"
-

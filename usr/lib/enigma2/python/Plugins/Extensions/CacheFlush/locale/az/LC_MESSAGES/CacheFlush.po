@@ -45,8 +45,9 @@ msgstr "CacheFlush Vəziyyəti"
 msgid "Cancel"
 msgstr "Ləğv et"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Təmiz \\\\\\\\"
+msgstr "Təmiz \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "İndi Sil"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "plaginlər"
-

@@ -45,8 +45,9 @@ msgstr "CacheFlush күйі"
 msgid "Cancel"
 msgstr "Болдырмау"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Тазалау \\\\\\\\"
+msgstr "Тазалау \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Қазір тазалау"
@@ -122,4 +123,3 @@ msgstr "бет кэші"
 
 msgid "plugins"
 msgstr "плагиндер"
-

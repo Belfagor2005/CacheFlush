@@ -45,8 +45,9 @@ msgstr "CacheFlush ýagdaýy"
 msgid "Cancel"
 msgstr "Elatyr"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Arassa \\\\\\\\"
+msgstr "Arassa \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Indi arassala"
@@ -122,4 +123,3 @@ msgstr "sahypa sahypa"
 
 msgid "plugins"
 msgstr "pluginler"
-

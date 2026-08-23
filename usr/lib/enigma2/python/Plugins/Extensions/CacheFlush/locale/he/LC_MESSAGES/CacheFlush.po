@@ -45,8 +45,9 @@ msgstr "מצב CacheFlush"
 msgid "Cancel"
 msgstr "לְבַטֵל"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "נקי \\\\\\\\"
+msgstr "נקי \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "נקה עכשיו"
@@ -118,8 +119,7 @@ msgid "menu-system"
 msgstr "מערכת תפריטים"
 
 msgid "pagecache"
-msgstr ""
+msgstr "מטמון עמודים"
 
 msgid "plugins"
 msgstr "תוספים"
-

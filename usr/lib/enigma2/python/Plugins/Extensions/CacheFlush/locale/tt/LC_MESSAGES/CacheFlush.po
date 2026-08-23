@@ -45,8 +45,9 @@ msgstr "CacheFlush статусы"
 msgid "Cancel"
 msgstr "Баш тарту"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Чиста \\\\\\\\"
+msgstr "Чиста \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Хәзер чистарт"
@@ -122,4 +123,3 @@ msgstr "бит"
 
 msgid "plugins"
 msgstr "плагиннар"
-

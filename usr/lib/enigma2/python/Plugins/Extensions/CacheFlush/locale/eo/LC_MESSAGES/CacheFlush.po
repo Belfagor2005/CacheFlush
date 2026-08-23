@@ -45,8 +45,9 @@ msgstr "Statuso de CacheFlush"
 msgid "Cancel"
 msgstr "Nuligi"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Purigi \\\\\\\\"
+msgstr "Purigi \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Klarigi Nun"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "kromaĵojn"
-

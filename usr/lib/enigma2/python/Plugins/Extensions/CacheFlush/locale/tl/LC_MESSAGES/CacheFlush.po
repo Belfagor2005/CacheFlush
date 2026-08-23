@@ -45,8 +45,9 @@ msgstr "Katayuan ng CacheFlush"
 msgid "Cancel"
 msgstr "Kanselahin"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "malinis \\\\\\\\"
+msgstr "malinis \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr ""
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "mga plugin"
-

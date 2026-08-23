@@ -45,8 +45,9 @@ msgstr "CacheFlush статусу"
 msgid "Cancel"
 msgstr "Жокко чыгаруу"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Таза \\\\\\\\"
+msgstr "Таза \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Азыр тазалоо"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "плагиндер"
-

@@ -45,8 +45,9 @@ msgstr "CacheFlush-Status"
 msgid "Cancel"
 msgstr "Stornieren"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Sauber \\\\\\\\"
+msgstr "Sauber \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Jetzt löschen"
@@ -122,4 +123,3 @@ msgstr "Seitencache"
 
 msgid "plugins"
 msgstr "Plugins"
-

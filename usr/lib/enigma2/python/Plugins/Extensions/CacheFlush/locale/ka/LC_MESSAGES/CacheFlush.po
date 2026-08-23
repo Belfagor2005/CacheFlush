@@ -45,8 +45,9 @@ msgstr "CacheFlush სტატუსი"
 msgid "Cancel"
 msgstr "გაუქმება"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "სუფთა \\\\\\\\"
+msgstr "სუფთა \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "გასუფთავება ახლა"
@@ -122,4 +123,3 @@ msgstr "გვერდის ქეში"
 
 msgid "plugins"
 msgstr "დანამატები"
-

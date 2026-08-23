@@ -45,8 +45,9 @@ msgstr "ਕੈਸ਼ਫਲਸ਼ ਸਥਿਤੀ"
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "ਸਾਫ਼\\\\\\\\"
+msgstr "ਸਾਫ਼\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ਹੁਣੇ ਸਾਫ਼ ਕਰੋ"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "ਪਲੱਗਇਨ"
-

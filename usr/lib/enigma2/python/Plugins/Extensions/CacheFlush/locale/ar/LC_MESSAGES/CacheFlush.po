@@ -45,8 +45,9 @@ msgstr "حالة ذاكرة التخزين المؤقت"
 msgid "Cancel"
 msgstr "يلغي"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "ينظف \\\\\\\\"
+msgstr "ينظف \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "امسح الآن"
@@ -122,4 +123,3 @@ msgstr "ذاكرة التخزين المؤقت للصفحة"
 
 msgid "plugins"
 msgstr "الإضافات"
-

@@ -45,8 +45,9 @@ msgstr "Стан CacheFlush"
 msgid "Cancel"
 msgstr "Адмяніць"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Чысты \\\\\\\\"
+msgstr "Чысты \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Ачысціць зараз"
@@ -122,4 +123,3 @@ msgstr "кэш старонак"
 
 msgid "plugins"
 msgstr "убудовы"
-

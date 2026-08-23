@@ -45,8 +45,9 @@ msgstr "Önbellek Temizleme Durumu"
 msgid "Cancel"
 msgstr "İptal etmek"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Temiz \\\\\\\\"
+msgstr "Temiz \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Şimdi Temizle"
@@ -122,4 +123,3 @@ msgstr "sayfa önbelleği"
 
 msgid "plugins"
 msgstr "eklentiler"
-

@@ -45,8 +45,9 @@ msgstr "CacheFlush állapota"
 msgid "Cancel"
 msgstr "Mégse"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Tiszta \\\\\\\\"
+msgstr "Tiszta \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Tiszta most"
@@ -122,4 +123,3 @@ msgstr "oldalgyorsítótár"
 
 msgid "plugins"
 msgstr "bővítmények"
-

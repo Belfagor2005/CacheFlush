@@ -45,8 +45,9 @@ msgstr "Статус на CacheFlush"
 msgid "Cancel"
 msgstr "Откажи"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Чиста \\\\\\\\"
+msgstr "Чиста \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Исчисти сега"
@@ -122,4 +123,3 @@ msgstr "кешот на страницата"
 
 msgid "plugins"
 msgstr "приклучоци"
-

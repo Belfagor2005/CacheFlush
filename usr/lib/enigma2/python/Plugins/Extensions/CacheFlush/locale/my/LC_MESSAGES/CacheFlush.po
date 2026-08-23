@@ -45,6 +45,7 @@ msgstr "CacheFlush အခြေအနေ"
 msgid "Cancel"
 msgstr "မလုပ်တော့"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
 msgstr "သန့်ရှင်း"
 
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "ပလပ်အင်များ"
-

@@ -45,8 +45,9 @@ msgstr "CacheFlush-tila"
 msgid "Cancel"
 msgstr "Peruuttaa"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "puhdas \\\\\\\\"
+msgstr "puhdas \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Tyhjennä nyt"
@@ -122,4 +123,3 @@ msgstr "sivuvälimuisti"
 
 msgid "plugins"
 msgstr "laajennuksia"
-

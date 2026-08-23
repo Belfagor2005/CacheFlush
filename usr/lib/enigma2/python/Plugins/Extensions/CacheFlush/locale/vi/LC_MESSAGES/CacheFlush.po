@@ -45,8 +45,9 @@ msgstr "Trạng thái xóa bộ nhớ đệm"
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Lau dọn \\\\\\\\"
+msgstr "Lau dọn \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Xóa ngay bây giờ"
@@ -122,4 +123,3 @@ msgstr "bộ đệm trang"
 
 msgid "plugins"
 msgstr "plugin"
-

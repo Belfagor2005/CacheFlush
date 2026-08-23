@@ -45,8 +45,9 @@ msgstr "CacheFlush స్థితి"
 msgid "Cancel"
 msgstr "రద్దు చేయి"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "శుభ్రంగా \\\\\\\\"
+msgstr "శుభ్రంగా \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "ఇప్పుడు క్లియర్ చేయండి"
@@ -122,4 +123,3 @@ msgstr "పేజీ కాష్"
 
 msgid "plugins"
 msgstr "ప్లగిన్లు"
-

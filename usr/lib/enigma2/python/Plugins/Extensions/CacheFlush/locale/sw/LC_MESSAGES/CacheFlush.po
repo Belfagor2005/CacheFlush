@@ -45,8 +45,9 @@ msgstr "Hali ya CacheFlush"
 msgid "Cancel"
 msgstr "Ghairi"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Safi \\\\\\\\"
+msgstr "Safi \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Wazi Sasa"
@@ -122,4 +123,3 @@ msgstr "kache ya ukurasa"
 
 msgid "plugins"
 msgstr "programu-jalizi"
-

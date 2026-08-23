@@ -45,8 +45,9 @@ msgstr ""
 msgid "Cancel"
 msgstr "Avboka"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Rengör \\\\\\\\"
+msgstr "Rengör \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Rensa nu"
@@ -122,4 +123,3 @@ msgstr "sidcache"
 
 msgid "plugins"
 msgstr ""
-

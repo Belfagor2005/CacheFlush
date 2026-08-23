@@ -45,8 +45,9 @@ msgstr "สถานะแคชฟลัช"
 msgid "Cancel"
 msgstr "ยกเลิก"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "ทำความสะอาด \\\\\\\\"
+msgstr "ทำความสะอาด \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "เคลียร์เลย"
@@ -122,4 +123,3 @@ msgstr "แคชเพจ"
 
 msgid "plugins"
 msgstr "ปลั๊กอิน"
-

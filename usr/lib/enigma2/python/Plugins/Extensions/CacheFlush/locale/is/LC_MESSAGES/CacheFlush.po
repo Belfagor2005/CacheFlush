@@ -45,8 +45,9 @@ msgstr "CacheFlush Staða"
 msgid "Cancel"
 msgstr "Hætta við"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Hreinsa \\\\\\\\"
+msgstr "Hreinsa \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Hreinsa núna"
@@ -122,4 +123,3 @@ msgstr "síðuskyndiminni"
 
 msgid "plugins"
 msgstr "viðbætur"
-

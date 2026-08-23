@@ -45,8 +45,9 @@ msgstr "د CacheFlush حالت"
 msgid "Cancel"
 msgstr "لغوه کړئ"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "پاک \\\\\\\\"
+msgstr "پاک \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "اوس پاک کړئ"
@@ -122,4 +123,3 @@ msgstr "د پاڼې کیچ"
 
 msgid "plugins"
 msgstr "پلگ ان"
-

@@ -45,8 +45,9 @@ msgstr "Status CacheFlush"
 msgid "Cancel"
 msgstr "Ikkanċella"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Naddaf \\\\\\\\"
+msgstr "Naddaf \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Ċara Issa"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr ""
-

@@ -45,8 +45,9 @@ msgstr "Stan opróżniania pamięci podręcznej"
 msgid "Cancel"
 msgstr "Anulować"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Czysty \\\\\\\\"
+msgstr "Czysty \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Wyczyść teraz"
@@ -122,4 +123,3 @@ msgstr "pamięć podręczna strony"
 
 msgid "plugins"
 msgstr "wtyczki"
-

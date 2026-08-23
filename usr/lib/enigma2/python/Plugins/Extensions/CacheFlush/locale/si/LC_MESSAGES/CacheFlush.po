@@ -45,8 +45,9 @@ msgstr "CacheFlush තත්ත්වය"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "පිරිසිදු \\\\\\\\"
+msgstr "පිරිසිදු \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "දැන් පැහැදිලි කරන්න"
@@ -122,4 +123,3 @@ msgstr ""
 
 msgid "plugins"
 msgstr "ප්ලගින"
-

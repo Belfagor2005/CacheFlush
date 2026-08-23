@@ -45,8 +45,9 @@ msgstr "Statws CacheFlush"
 msgid "Cancel"
 msgstr "Canslo"
 
+#, fuzzy
 msgid "Clean \\\\\\\\"
-msgstr "Glan \\\\\\\\"
+msgstr "Glan \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
 msgid "Clear Now"
 msgstr "Cliriwch Nawr"
@@ -122,4 +123,3 @@ msgstr "tudalencache"
 
 msgid "plugins"
 msgstr "ategion"
-
